@@ -7,5 +7,7 @@ gem "tzinfo", "~> 2.0"
 gem "tzinfo-data"
 gem "jekyll-paginate"
 gem "jekyll-sitemap"
+gem 'base64'
+gem 'logger'
 
 gemspec
