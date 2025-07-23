@@ -9,5 +9,6 @@ gem "jekyll-paginate"
 gem "jekyll-sitemap"
 gem 'base64'
 gem 'logger'
+gem 'bigdecimal'
 
 gemspec
