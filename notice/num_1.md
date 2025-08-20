@@ -1,8 +1,5 @@
 ---
 layout: default
-title: "제 1차 GIS AI 챗봇 개발 교육 안내"
-date: 2025-08-02
-categories: [학회소식, 세미나]
 ---
 <style>
   .customTable1 tr th {
