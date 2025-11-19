@@ -61,36 +61,41 @@ categories: [학회소식, 워크샵]
   <li><strong>주제:</strong> 차세대 AX를 위한 초소형 위성-AI 융합 기술 활용</li>
 </ul>
 
-<table style="width:100%; border-collapse: collapse; font-size: 0.95em; text-align: center;">
+<table style="width:100%; border-collapse: collapse; text-align: center; font-size: 0.95em;">
   <thead>
     <tr style="background-color: #e5ebf7;">
-      <th style="border: 1px solid #ccc; padding: 0.6em;">구분</th>
-      <th style="border: 1px solid #ccc; padding: 0.6em;">정회원(일반)</th>
-      <th style="border: 1px solid #ccc; padding: 0.6em;">학생회원</th>
-      <th style="border: 1px solid #ccc; padding: 0.6em;">비회원 일반</th>
-      <th style="border: 1px solid #ccc; padding: 0.6em;">비회원 학생</th>
-      <th style="border: 1px solid #ccc; padding: 0.6em;">비고</th>
+      <th style="border: 1px solid #ccc; padding: 8px;" rowspan="2">구분</th>
+      <th style="border: 1px solid #ccc; padding: 8px;" rowspan="2">정회원(일반)</th>
+      <th style="border: 1px solid #ccc; padding: 8px;" rowspan="2">학생회원</th>
+      <th style="border: 1px solid #ccc; padding: 8px;" colspan="2">비회원</th>
+      <th style="border: 1px solid #ccc; padding: 8px;" rowspan="2">비고</th>
+    </tr>
+    <tr style="background-color: #e5ebf7;">
+      <th style="border: 1px solid #ccc; padding: 8px;">일반</th>
+      <th style="border: 1px solid #ccc; padding: 8px;">학생</th>
     </tr>
   </thead>
+
   <tbody>
     <tr>
-      <td style="border: 1px solid #ccc; padding: 0.6em;">사전등록</td>
-      <td style="border: 1px solid #ccc; padding: 0.6em;">200,000원</td>
-      <td style="border: 1px solid #ccc; padding: 0.6em;">100,000원</td>
-      <td style="border: 1px solid #ccc; padding: 0.6em;">300,000원</td>
-      <td style="border: 1px solid #ccc; padding: 0.6em;">150,000원</td>
-      <td style="border: 1px solid #ccc; padding: 0.6em;"></td>
+      <td style="border: 1px solid #ccc; padding: 8px;">사전등록</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">200,000원</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">100,000원</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">300,000원</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">150,000원</td>
+      <td style="border: 1px solid #ccc; padding: 8px;"></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #ccc; padding: 0.6em;">현장등록</td>
-      <td style="border: 1px solid #ccc; padding: 0.6em;">250,000원</td>
-      <td style="border: 1px solid #ccc; padding: 0.6em;">150,000원</td>
-      <td style="border: 1px solid #ccc; padding: 0.6em;">350,000원</td>
-      <td style="border: 1px solid #ccc; padding: 0.6em;">200,000원</td>
-      <td style="border: 1px solid #ccc; padding: 0.6em;"></td>
+      <td style="border: 1px solid #ccc; padding: 8px;">현장등록</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">250,000원</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">150,000원</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">350,000원</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">200,000원</td>
+      <td style="border: 1px solid #ccc; padding: 8px;"></td>
     </tr>
   </tbody>
 </table>
+
 <br>
 
 <h4>💳 등록 안내</h4>
