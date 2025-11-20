@@ -61,63 +61,46 @@ categories: [학회소식, 워크샵]
   <li><strong>주제:</strong> 차세대 AX를 위한 초소형 위성-AI 융합 기술 활용</li>
 </ul>
 
+<h4>📑 프로그램 세부일정</h4>
+
+<!-- 표1 시작 -->
 <table style="width:100%; border-collapse: collapse; text-align: center; font-size: 0.95em;">
   <thead>
-    <tr style="background-color: #e5ebf7;">
-      <th style="border: 1px solid #ccc; padding: 8px;" rowspan="2">구분</th>
-      <th style="border: 1px solid #ccc; padding: 8px;" rowspan="2">정회원(일반)</th>
-      <th style="border: 1px solid #ccc; padding: 8px;" rowspan="2">학생회원</th>
-      <th style="border: 1px solid #ccc; padding: 8px;" colspan="2">비회원</th>
-      <th style="border: 1px solid #ccc; padding: 8px;" rowspan="2">비고</th>
-    </tr>
-    <tr style="background-color: #e5ebf7;">
-      <th style="border: 1px solid #ccc; padding: 8px;">일반</th>
-      <th style="border: 1px solid #ccc; padding: 8px;">학생</th>
+    <tr style="background-color:#e5ebf7;">
+      <th style="border: 1px solid #ccc; padding: 8px;">시간</th>
+      <th style="border: 1px solid #ccc; padding: 8px;">내용</th>
+      <th style="border: 1px solid #ccc; padding: 8px;">발표자</th>
     </tr>
   </thead>
-
   <tbody>
     <tr>
-      <td style="border: 1px solid #ccc; padding: 8px;">사전등록</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">200,000원</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">100,000원</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">300,000원</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">150,000원</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">16:00–17:00 (60’)</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">AI G3 도약을 위한 미래 비전과 도전 과제</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">홍상균<br>(정보통신산업진흥원)</td>
+    </tr>
+    <tr style="background-color:#e5ebf7;">
+      <td colspan="3" style="border: 1px solid #ccc; padding: 8px; font-weight: bold;">특별세션</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">17:00–17:20 (20’)</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">초소형 위성과 AI</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">정형섭<br>(서울시립대학교)</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">17:20–17:40 (20’)</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">스마트시티의 미래: 스페이스 AI</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">김윤제<br>((주)심시스글로벌)</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">17:40–18:00 (20’)</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">미래를 바꾸는 AX 솔루션:<br>원격탐사와 AX 융합 연구 방향 정리</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">이명진<br>(한국환경연구원)</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">18:00–18:30 (30’)</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">질의응답(Q&A)</td>
       <td style="border: 1px solid #ccc; padding: 8px;"></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #ccc; padding: 8px;">현장등록</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">250,000원</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">150,000원</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">350,000원</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">200,000원</td>
-      <td style="border: 1px solid #ccc; padding: 8px;"></td>
-    </tr>
-  </tbody>
-</table>
-
-<br>
-
-<h4>💳 등록 안내</h4>
-<ul style="font-size: 0.95em; line-height: 1.8em;">
-  <li><strong>사전등록 마감:</strong> 2025년 12월 10일(수)까지</li>
-  <li><strong>결제방법:</strong> 신용카드 / 계좌이체</li>
-  <li><strong>등록비 납부계좌:</strong> 우리은행 1005-304-831659 (예금주: 위성지능정보학회)</li>
-  <li>※ 등록비 입금 시 <strong>등록자명</strong>으로 입금해 주시기 바랍니다.</li>
-  <li>※ 등록자명과 송금인이 다를 경우 반드시 학회 사무국 (satiis.society@gmail.com)으로 연락 바랍니다.</li>
-</ul>
-
-<hr>
-
-<h4>📢 특별세션 신청 안내</h4>
-<ul style="font-size: 0.95em; line-height: 1.8em;">
-  <li><strong>신청기한:</strong> 2025년 11월 21일(금)까지</li>
-  <li><strong>신청방법 및 등록비:</strong> 학회 사무국으로 별도 문의</li>
-</ul>
-
-<hr>
-
-<p style="font-size: 0.95em; line-height: 1.8em;">
-  📢 회원 여러분의 많은 관심과 참여 부탁드립니다.<br>
-  위성지능정보학회 드림
-</p>
+      <td style="border: 1px solid #ccc; padding: 8px;">18:30–20:00 (90’)</td>
+      <td style="border: 1
