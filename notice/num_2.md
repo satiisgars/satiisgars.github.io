@@ -49,7 +49,7 @@ categories: [학회소식, 워크샵]
 <p style="line-height: 1.8em; font-size: 0.95em;">
   회원 여러분, 안녕하세요:)<br>
   위성지능정보학회입니다.<br>
-  제1회 위성지능정보학회 워크샵을 아래와 같이 개최하오니 많은 관심과 참여 부탁드립니다.
+  제1회 위성지능정보학회 워크샵을 아래와 같이 개최하오니 많은 관심과 참여를 부탁드립니다.
 </p>
 
 <hr>
@@ -80,7 +80,7 @@ categories: [학회소식, 워크샵]
         AI G3 도약을 위한 미래 비전과 도전 과제
       </td>
       <td style="border:1px solid #ddd; padding:0.6em;">
-        홍성관<br>(정보통신산업진흥원)
+        홍상균<br>(정보통신산업진흥원)
       </td>
     </tr>
     <tr>
@@ -103,7 +103,7 @@ categories: [학회소식, 워크샵]
         스마트시티의 미래: 스페이스 AI
       </td>
       <td style="border:1px solid #ddd; padding:0.6em;">
-        김윤제<br>(㈜스페이스AI)
+        김윤제<br>(㈜심시스글로벌)
       </td>
     </tr>
     <tr>
@@ -112,7 +112,7 @@ categories: [학회소식, 워크샵]
         미래를 바꾸는 AX 솔루션: 원격탐사·AI 융합 연구 방향 정리
       </td>
       <td style="border:1px solid #ddd; padding:0.6em;">
-        이영진<br>(한국환경연구원)
+        이명진<br>(한국환경연구원)
       </td>
     </tr>
     <tr>
