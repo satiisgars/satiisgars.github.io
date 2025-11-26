@@ -179,7 +179,12 @@ categories: [학회소식, 워크샵]
 </ul>
 
 <hr>
+<h4>📩 사전등록 하기.</h4>
+<p>
+<a href="https://forms.gle/AwXosUXxhG2kAiVR6" target="_blank" class="button">☞ 사전등록</a>
+</p>
 
+<hr>
 
 
 <h4>📩 특별세션 신청 안내</h4>
@@ -187,6 +192,7 @@ categories: [학회소식, 워크샵]
   <li><strong>신청기한:</strong> 2025년 11월 21일(금)까지</li>
   <li><strong>신청방법 및 등록비:</strong> 학회 사무국으로 별도 문의</li>
 </ul>
+
 
 <h4>📩 자세한 일정은 아래의 링크를 확인 부탁드립니다.</h4>
 <p>
