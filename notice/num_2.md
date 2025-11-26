@@ -69,14 +69,14 @@ categories: [학회소식, 워크샵]
   <thead>
     <tr style="background-color:#f2f2f2;">
       <th style="border:1px solid #ccc; padding:0.6em; width:20%;">시간</th>
-      <th style="border:1px solid #ccc; padding:0.6em;">내용</th>
+      <th style="border:1px solid #ccc; padding:0.6em;">발표주제 및 내용</th>
       <th style="border:1px solid #ccc; padding:0.6em; width:25%;">발표자</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="border:1px solid #ddd; padding:0.6em;">16:00–17:00 (60')</td>
-      <td style="border:1px solid #ddd; padding:0.6em; text-align:left;">
+      <td style="border:1px solid #ddd; padding:0.6em; text-align:center;">
         AI G3 도약을 위한 미래 비전과 도전 과제
       </td>
       <td style="border:1px solid #ddd; padding:0.6em;">
@@ -90,7 +90,7 @@ categories: [학회소식, 워크샵]
     </tr>
     <tr>
       <td style="border:1px solid #ddd; padding:0.6em;">17:00–17:20 (20')</td>
-      <td style="border:1px solid #ddd; padding:0.6em; text-align:left;">
+      <td style="border:1px solid #ddd; padding:0.6em; text-align:center;">
         초소형 위성과 AI
       </td>
       <td style="border:1px solid #ddd; padding:0.6em;">
@@ -99,7 +99,7 @@ categories: [학회소식, 워크샵]
     </tr>
     <tr>
       <td style="border:1px solid #ddd; padding:0.6em;">17:20–17:40 (20')</td>
-      <td style="border:1px solid #ddd; padding:0.6em; text-align:left;">
+      <td style="border:1px solid #ddd; padding:0.6em; text-align:center;">
         스마트시티의 미래: 스페이스 AI
       </td>
       <td style="border:1px solid #ddd; padding:0.6em;">
@@ -108,8 +108,8 @@ categories: [학회소식, 워크샵]
     </tr>
     <tr>
       <td style="border:1px solid #ddd; padding:0.6em;">17:40–18:00 (20')</td>
-      <td style="border:1px solid #ddd; padding:0.6em; text-align:left;">
-        미래를 바꾸는 AX 솔루션: 원격탐사·AI 융합 연구 방향 정리
+      <td style="border:1px solid #ddd; padding:0.6em; text-align:center;">
+        미래를 바꾸는 AX 솔루션: 원격탐사와 AX 융합 연구
       </td>
       <td style="border:1px solid #ddd; padding:0.6em;">
         이명진<br>(한국환경연구원)
@@ -117,15 +117,15 @@ categories: [학회소식, 워크샵]
     </tr>
     <tr>
       <td style="border:1px solid #ddd; padding:0.6em;">18:00–18:30 (30')</td>
-      <td style="border:1px solid #ddd; padding:0.6em; text-align:left;">
+      <td style="border:1px solid #ddd; padding:0.6em; text-align:center;">
         질의응답(Q&amp;A)
       </td>
       <td style="border:1px solid #ddd; padding:0.6em;"></td>
     </tr>
     <tr>
       <td style="border:1px solid #ddd; padding:0.6em;">18:30–20:00 (90')</td>
-      <td style="border:1px solid #ddd; padding:0.6em; text-align:left;">
-        저녁 식사 및 네트워킹
+      <td style="border:1px solid #ddd; padding:0.6em; text-align:center;">
+        자유 토론 및 만찬
       </td>
       <td style="border:1px solid #ddd; padding:0.6em;"></td>
     </tr>
@@ -187,6 +187,12 @@ categories: [학회소식, 워크샵]
   <li><strong>신청기한:</strong> 2025년 11월 21일(금)까지</li>
   <li><strong>신청방법 및 등록비:</strong> 학회 사무국으로 별도 문의</li>
 </ul>
+
+<h4>📩 자세한 일정은 아래의 링크를 확인 부탁드립니다.</h4>
+<p>
+아래의 [학회 가입신청] 버튼을 클릭 후 신청서 작성 및 제출<br>
+<a href="../행사일정" target="_blank" class="button">☞ 행사 일정</a>
+</p>
 
 <hr>
 
