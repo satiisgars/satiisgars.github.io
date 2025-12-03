@@ -100,7 +100,7 @@ categories: [학회소식, 워크샵]
     <tr>
       <td style="border:1px solid #ddd; padding:0.6em;">17:20–17:40 (20')</td>
       <td style="border:1px solid #ddd; padding:0.6em; text-align:center;">
-        스마트시티의 미래: 스페이스 AI
+        Space AI 비즈니스 소개
       </td>
       <td style="border:1px solid #ddd; padding:0.6em;">
         김윤제<br>(㈜심시스글로벌)
