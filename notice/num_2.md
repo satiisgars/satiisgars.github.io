@@ -75,7 +75,7 @@ categories: [학회소식, 워크샵]
   </thead>
   <tbody>
     <tr>
-      <td style="border:1px solid #ddd; padding:0.6em;">16:00–17:00 (60')</td>
+      <td style="border:1px solid #ddd; padding:0.6em;">16:00–17:30 (90')</td>
       <td style="border:1px solid #ddd; padding:0.6em; text-align:center;">
         AI G3 도약을 위한 미래 비전과 도전 과제
       </td>
@@ -89,7 +89,7 @@ categories: [학회소식, 워크샵]
       </td>
     </tr>
     <tr>
-      <td style="border:1px solid #ddd; padding:0.6em;">17:00–17:20 (20')</td>
+      <td style="border:1px solid #ddd; padding:0.6em;">17:30–17:50 (20')</td>
       <td style="border:1px solid #ddd; padding:0.6em; text-align:center;">
         초소형 위성과 AI
       </td>
@@ -98,7 +98,7 @@ categories: [학회소식, 워크샵]
       </td>
     </tr>
     <tr>
-      <td style="border:1px solid #ddd; padding:0.6em;">17:20–17:40 (20')</td>
+      <td style="border:1px solid #ddd; padding:0.6em;">17:50–18:10 (20')</td>
       <td style="border:1px solid #ddd; padding:0.6em; text-align:center;">
         Space AI 비즈니스 소개
       </td>
@@ -107,20 +107,13 @@ categories: [학회소식, 워크샵]
       </td>
     </tr>
     <tr>
-      <td style="border:1px solid #ddd; padding:0.6em;">17:40–18:00 (20')</td>
+      <td style="border:1px solid #ddd; padding:0.6em;">18:10–18:30 (20')</td>
       <td style="border:1px solid #ddd; padding:0.6em; text-align:center;">
         미래를 바꾸는 AX 솔루션: 원격탐사와 AX 융합 연구
       </td>
       <td style="border:1px solid #ddd; padding:0.6em;">
         이명진<br>(한국환경연구원)
       </td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ddd; padding:0.6em;">18:00–18:30 (30')</td>
-      <td style="border:1px solid #ddd; padding:0.6em; text-align:center;">
-        질의응답(Q&amp;A)
-      </td>
-      <td style="border:1px solid #ddd; padding:0.6em;"></td>
     </tr>
     <tr>
       <td style="border:1px solid #ddd; padding:0.6em;">18:30–20:00 (90')</td>
