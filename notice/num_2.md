@@ -74,6 +74,24 @@ categories: [학회소식, 워크샵]
     </tr>
   </thead>
   <tbody>
+      <tr>
+      <td style="border:1px solid #ddd; padding:0.6em;">15:30–15:50</td>
+      <td style="border:1px solid #ddd; padding:0.6em; text-align:center;">
+        등록
+      </td>
+      <td style="border:1px solid #ddd; padding:0.6em;">
+        -
+      </td>
+    </tr>
+        <tr>
+      <td style="border:1px solid #ddd; padding:0.6em;">15:50–16:00</td>
+      <td style="border:1px solid #ddd; padding:0.6em; text-align:center;">
+        개회사
+      </td>
+      <td style="border:1px solid #ddd; padding:0.6em;">
+        정형섭<br>(위성지능정보학회장)
+      </td>
+    </tr>
     <tr>
       <td style="border:1px solid #ddd; padding:0.6em;">16:00–17:30 (90')</td>
       <td style="border:1px solid #ddd; padding:0.6em; text-align:center;">
