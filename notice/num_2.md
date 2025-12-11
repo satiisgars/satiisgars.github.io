@@ -75,7 +75,7 @@ categories: [학회소식, 워크샵]
   </thead>
   <tbody>
       <tr>
-      <td style="border:1px solid #ddd; padding:0.6em;">15:30–15:50</td>
+      <td style="border:1px solid #ddd; padding:0.6em;">15:30–15:50 (20')</td>
       <td style="border:1px solid #ddd; padding:0.6em; text-align:center;">
         등록
       </td>
@@ -84,7 +84,7 @@ categories: [학회소식, 워크샵]
       </td>
     </tr>
         <tr>
-      <td style="border:1px solid #ddd; padding:0.6em;">15:50–16:00</td>
+      <td style="border:1px solid #ddd; padding:0.6em;">15:50–16:00 (10')</td>
       <td style="border:1px solid #ddd; padding:0.6em; text-align:center;">
         개회사
       </td>
