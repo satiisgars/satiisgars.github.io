@@ -148,7 +148,7 @@ categories: [학회소식, 워크샵]
     <tr>
       <td style="border:1px solid #ddd; padding:0.6em;">12:40–13:00 (20')</td>
       <td style="border:1px solid #ddd; padding:0.6em;">
-        미정
+        수자원 관리 및 수재해 대응을 위한 초소형 군집위성 체계 개발
       </td>
       <td style="border:1px solid #ddd; padding:0.6em;">
         윤동현<br>(K-water연구원)
