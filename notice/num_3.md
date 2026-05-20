@@ -67,120 +67,116 @@ categories: [학회소식, 워크샵]
 
 <table style="width:100%; border-collapse: collapse; font-size: 0.9em; text-align: center;">
   <thead>
-    <tr style="background-color:#eaf5f8; border-top:3px solid #000; border-bottom:3px double #000;">
-      <th style="border:1px solid #333; padding:0.6em; width:13%;">시간</th>
-      <th style="border:1px solid #333; padding:0.6em;">발표주제 및 내용</th>
-      <th style="border:1px solid #333; padding:0.6em; width:25%;">발표자</th>
+    <tr style="background-color:#f2f2f2;">
+      <th style="border:1px solid #ccc; padding:0.6em; width:13%;">시간</th>
+      <th style="border:1px solid #ccc; padding:0.6em;">발표주제 및 내용</th>
+      <th style="border:1px solid #ccc; padding:0.6em; width:25%;">발표자</th>
     </tr>
   </thead>
 
   <tbody>
     <tr>
-      <td style="border:1px solid #333; padding:0.6em;">09:20<br>–09:50<br>(30’)</td>
-      <td style="border:1px solid #333; padding:0.6em;">등록</td>
-      <td style="border:1px solid #333; padding:0.6em;"></td>
+      <td style="border:1px solid #ddd; padding:0.6em;">09:20<br>–09:50<br>(30’)</td>
+      <td style="border:1px solid #ddd; padding:0.6em;">등록</td>
+      <td style="border:1px solid #ddd; padding:0.6em;"></td>
     </tr>
 
     <tr>
-      <td style="border:1px solid #333; padding:0.6em;">09:50<br>–10:00<br>(10’)</td>
-      <td style="border:1px solid #333; padding:0.6em;">개회사</td>
-      <td style="border:1px solid #333; padding:0.6em;">위성지능정보학회장</td>
+      <td style="border:1px solid #ddd; padding:0.6em;">09:50<br>–10:00<br>(10’)</td>
+      <td style="border:1px solid #ddd; padding:0.6em;">개회사</td>
+      <td style="border:1px solid #ddd; padding:0.6em;">위성지능정보학회장</td>
     </tr>
 
     <tr>
-      <td style="border:1px solid #333; padding:0.6em;">10:00<br>–11:30<br>(90’)</td>
-      <td style="border:1px solid #333; padding:0.6em;">AI반도체(NPU) 현황 및 산업별 Use Case</td>
-      <td style="border:1px solid #333; padding:0.6em;">
+      <td style="border:1px solid #ddd; padding:0.6em;">10:00<br>–11:30<br>(90’)</td>
+      <td style="border:1px solid #ddd; padding:0.6em;">AI반도체(NPU) 현황 및 산업별 Use Case</td>
+      <td style="border:1px solid #ddd; padding:0.6em;">
         홍상균<br>(정보통신산업진흥원)
       </td>
     </tr>
 
     <tr>
-      <td style="border:1px solid #333; padding:0.6em;">11:30<br>–11:35<br>(5’)</td>
-      <td style="border:1px solid #333; padding:0.6em;">휴식</td>
-      <td style="border:1px solid #333; padding:0.6em;"></td>
+      <td style="border:1px solid #ddd; padding:0.6em;">11:30<br>–11:35<br>(5’)</td>
+      <td style="border:1px solid #ddd; padding:0.6em;">휴식</td>
+      <td style="border:1px solid #ddd; padding:0.6em;"></td>
     </tr>
 
     <tr>
-      <td style="border:1px solid #333; padding:0.6em;" rowspan="6">
+      <td style="border:1px solid #ddd; padding:0.6em;" rowspan="6">
         11:35<br>–13:00<br>(85’)
       </td>
-      <td style="border:1px solid #333; padding:0.6em; background-color:#c9d6f2; font-weight:bold; font-size:1.05em;" colspan="2">
+      <td style="border:1px solid #ddd; padding:0.6em; background-color:#e5ebf7; font-weight:bold;" colspan="2">
         [특별세션] 차세대 위성·공간정보 융합 활용
       </td>
     </tr>
 
-    <tr style="background-color:#fff8cf;">
-      <td style="border:1px solid #333; padding:0.6em;">
+    <tr>
+      <td style="border:1px solid #ddd; padding:0.6em; background-color:#f9f6df;">
         11:35–11:50<br>(15’)
       </td>
-      <td style="border:1px solid #333; padding:0.6em;">
+      <td style="border:1px solid #ddd; padding:0.6em; background-color:#f9f6df;">
         SAR/InSAR기술의 공간정보<br>
         산업·정책 확장 활용 방안
       </td>
-      <td style="border:1px solid #333; padding:0.6em;">
+      <td style="border:1px solid #ddd; padding:0.6em;">
         정형섭<br>(서울시립대학교)
       </td>
     </tr>
 
-    <tr style="background-color:#fff8cf;">
-      <td style="border:1px solid #333; padding:0.6em;">
+    <tr>
+      <td style="border:1px solid #ddd; padding:0.6em; background-color:#f9f6df;">
         11:50–12:10<br>(20’)
       </td>
-      <td style="border:1px solid #333; padding:0.6em;">
+      <td style="border:1px solid #ddd; padding:0.6em; background-color:#f9f6df;">
         국가위성의 개발과 활용
       </td>
-      <td style="border:1px solid #333; padding:0.6em;">
+      <td style="border:1px solid #ddd; padding:0.6em;">
         오관영<br>(한국항공우주연구원)
       </td>
     </tr>
 
-    <tr style="background-color:#fff8cf;">
-      <td style="border:1px solid #333; padding:0.6em;">
+    <tr>
+      <td style="border:1px solid #ddd; padding:0.6em; background-color:#f9f6df;">
         12:10–12:30<br>(20’)
       </td>
-      <td style="border:1px solid #333; padding:0.6em;">
+      <td style="border:1px solid #ddd; padding:0.6em; background-color:#f9f6df;">
         수자원 관리 및 수재해 대응을<br>
         위한 초소형 군집위성 체계 개발
       </td>
-      <td style="border:1px solid #333; padding:0.6em;">
+      <td style="border:1px solid #ddd; padding:0.6em;">
         윤동현<br>(K-water연구원)
       </td>
     </tr>
 
-    <tr style="background-color:#fff8cf;">
-      <td style="border:1px solid #333; padding:0.6em;">
+    <tr>
+      <td style="border:1px solid #ddd; padding:0.6em; background-color:#f9f6df;">
         12:30–12:45<br>(15’)
       </td>
-      <td style="border:1px solid #333; padding:0.6em;">
+      <td style="border:1px solid #ddd; padding:0.6em; background-color:#f9f6df;">
         후속 환경위성 준비 및 초소형<br>
         온실가스 위성 소개
       </td>
-      <td style="border:1px solid #333; padding:0.6em;">
+      <td style="border:1px solid #ddd; padding:0.6em;">
         이원진<br>(국립환경과학원)
       </td>
     </tr>
 
-    <tr style="background-color:#fff8cf;">
-      <td style="border:1px solid #333; padding:0.6em;">
+    <tr>
+      <td style="border:1px solid #ddd; padding:0.6em; background-color:#f9f6df;">
         12:45–13:00<br>(15’)
       </td>
-      <td style="border:1px solid #333; padding:0.6em;">
+      <td style="border:1px solid #ddd; padding:0.6em; background-color:#f9f6df;">
         공간지능 기반 실시간 산불 관제<br>
         시스템 구현 및 응용
       </td>
-      <td style="border:1px solid #333; padding:0.6em;">
+      <td style="border:1px solid #ddd; padding:0.6em;">
         최일훈<br>((주)지오스토리)
       </td>
     </tr>
 
-    <tr style="border-bottom:3px solid #000;">
-      <td style="border:1px solid #333; padding:0.6em;">
-        13:00<br>–14:00<br>(60’)
-      </td>
-      <td style="border:1px solid #333; padding:0.6em;" colspan="2">
-        자유토론 및 오찬
-      </td>
+    <tr>
+      <td style="border:1px solid #ddd; padding:0.6em;">13:00<br>–14:00<br>(60’)</td>
+      <td style="border:1px solid #ddd; padding:0.6em;" colspan="2">자유토론 및 오찬</td>
     </tr>
   </tbody>
 </table>
