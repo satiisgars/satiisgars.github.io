@@ -151,13 +151,7 @@ categories: [학회소식, 워크샵]
     </tr>
 
     <tr>
-      <td style="border:1px solid #555; padding:0.6em;" rowspan="6">
-        11:35<br>
-        –13:00<br>
-        (85’)
-      </td>
-
-      <td colspan="2"
+      <td colspan="3"
           style="border:1px solid #555;
                  padding:0.8em;
                  background-color:#cfd7f1;
@@ -171,17 +165,13 @@ categories: [학회소식, 워크샵]
       <td style="border:1px solid #555;
                  padding:0.6em;
                  background-color:#f6f0c9;">
-
         11:35–11:50(15’)
-
       </td>
 
       <td style="border:1px solid #555;
                  padding:0.6em;
                  background-color:#f6f0c9;">
-
         SAR/InSAR기술의 공간정보 산업·정책 확장 활용 방안
-
       </td>
 
       <td style="border:1px solid #555; padding:0.6em;">
@@ -194,17 +184,13 @@ categories: [학회소식, 워크샵]
       <td style="border:1px solid #555;
                  padding:0.6em;
                  background-color:#f6f0c9;">
-
         11:50–12:10(20’)
-
       </td>
 
       <td style="border:1px solid #555;
                  padding:0.6em;
                  background-color:#f6f0c9;">
-
         국가위성의 개발과 활용
-
       </td>
 
       <td style="border:1px solid #555; padding:0.6em;">
@@ -217,17 +203,13 @@ categories: [학회소식, 워크샵]
       <td style="border:1px solid #555;
                  padding:0.6em;
                  background-color:#f6f0c9;">
-
         12:10–12:30(20’)
-
       </td>
 
       <td style="border:1px solid #555;
                  padding:0.6em;
                  background-color:#f6f0c9;">
-
         수자원 관리 및 수재해 대응을 위한 초소형 군집위성 체계 개발
-
       </td>
 
       <td style="border:1px solid #555; padding:0.6em;">
@@ -240,17 +222,13 @@ categories: [학회소식, 워크샵]
       <td style="border:1px solid #555;
                  padding:0.6em;
                  background-color:#f6f0c9;">
-
         12:30–12:45(15’)
-
       </td>
 
       <td style="border:1px solid #555;
                  padding:0.6em;
                  background-color:#f6f0c9;">
-
         후속 환경위성 준비 및 초소형 온실가스 위성 소개
-
       </td>
 
       <td style="border:1px solid #555; padding:0.6em;">
@@ -263,17 +241,13 @@ categories: [학회소식, 워크샵]
       <td style="border:1px solid #555;
                  padding:0.6em;
                  background-color:#f6f0c9;">
-
         12:45–13:00(15’)
-
       </td>
 
       <td style="border:1px solid #555;
                  padding:0.6em;
                  background-color:#f6f0c9;">
-
         공간지능 기반 실시간 산불 관제 시스템 구현 및 응용
-
       </td>
 
       <td style="border:1px solid #555; padding:0.6em;">
