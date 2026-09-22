@@ -68,14 +68,15 @@ categories: [학회소식, 워크샵]
   border: 1px solid #d5dde5;
   border-radius: 8px;
 
-  font-size: 1em;
+  font-size: 1.06em;
   margin-bottom: 22px;
 }
 
 .info-table th,
 .info-table td {
-  padding: 14px 17px;
+  padding: 15px 17px;
   border-bottom: 1px solid #dfe5eb;
+  line-height: 1.65;
 }
 
 .info-table tr:last-child th,
@@ -91,11 +92,13 @@ categories: [학회소식, 워크샵]
   color: #ffffff;
 
   text-align: center;
+  font-size: 1em;
   font-weight: 700;
 }
 
 .info-table td {
   background: #ffffff;
+  font-size: 1em;
 }
 
 
@@ -108,13 +111,13 @@ categories: [학회소식, 워크샵]
   align-items: center;
 
   margin: 27px 0 10px 0;
-  padding: 12px 17px;
+  padding: 13px 17px;
 
   background: #17365d;
   border-radius: 7px 7px 0 0;
 
   color: #ffffff;
-  font-size: 1.07em;
+  font-size: 1.1em;
   font-weight: 700;
 }
 
@@ -140,11 +143,12 @@ categories: [학회소식, 워크샵]
   overflow: hidden;
 
   margin-bottom: 27px;
-  font-size: 0.98em;
+
+  font-size: 1.05em;
 }
 
 .program-table th {
-  padding: 13px 10px;
+  padding: 14px 10px;
 
   background: #2f75b5;
   color: #ffffff;
@@ -152,8 +156,9 @@ categories: [학회소식, 워크샵]
   border-right: 1px solid rgba(255,255,255,0.25);
 
   text-align: center;
-  font-size: 1em;
+  font-size: 1.02em;
   font-weight: 700;
+  line-height: 1.5;
 }
 
 .program-table th:last-child {
@@ -161,13 +166,16 @@ categories: [학회소식, 워크샵]
 }
 
 .program-table td {
-  padding: 13px 13px;
+  padding: 14px 13px;
 
   border-right: 1px solid #dce3e9;
   border-bottom: 1px solid #dce3e9;
 
   vertical-align: middle;
   background: #ffffff;
+
+  font-size: 1em;
+  line-height: 1.6;
 }
 
 .program-table td:last-child {
@@ -197,13 +205,15 @@ categories: [학회소식, 워크샵]
   font-weight: 700;
 
   background: #f1f6fb !important;
+
+  font-size: 1em;
 }
 
 .time-cell .duration {
   display: block;
   margin-top: 4px;
 
-  font-size: 0.9em;
+  font-size: 0.95em;
   color: #718096;
   font-weight: 400;
 }
@@ -216,6 +226,7 @@ categories: [학회소식, 워크샵]
 .content-cell {
   width: 58%;
   text-align: center;
+  font-size: 1em;
 }
 
 
@@ -226,6 +237,7 @@ categories: [학회소식, 워크샵]
 .presenter-cell {
   width: 25%;
   text-align: center;
+  font-size: 1em;
 }
 
 
@@ -239,15 +251,17 @@ categories: [학회소식, 워크샵]
 
 .tutorial-title {
   color: #17365d;
-  font-size: 1.12em;
+  font-size: 1.15em;
   font-weight: 700;
 }
 
 .tutorial-subtitle {
-  margin-top: 6px;
+  margin-top: 7px;
+
   color: #4a5a6a;
-  font-size: 0.98em;
-  line-height: 1.65;
+
+  font-size: 1em;
+  line-height: 1.7;
 }
 
 
@@ -308,24 +322,27 @@ categories: [학회소식, 워크샵]
   border: 1px solid #cad8e6;
   border-radius: 8px;
   overflow: hidden;
+
   background: #ffffff;
 }
 
 .special-card-title {
-  padding: 10px 14px;
+  padding: 11px 14px;
 
   background: #e7f0f8;
   border-bottom: 1px solid #cad8e6;
 
   color: #17365d;
-  font-size: 1.02em;
+
+  font-size: 1.08em;
   font-weight: 700;
+
   text-align: center;
 }
 
 .special-card-body {
-  padding: 16px 16px;
-  min-height: 100px;
+  padding: 17px 16px;
+  min-height: 105px;
 
   display: flex;
   flex-direction: column;
@@ -333,17 +350,22 @@ categories: [학회소식, 워크샵]
 }
 
 .special-topic {
-  font-size: 1em;
+  font-size: 1.05em;
   font-weight: 600;
-  line-height: 1.6;
-  margin-bottom: 14px;
+
+  line-height: 1.65;
+
+  margin-bottom: 15px;
 }
 
 .special-chair {
   padding-top: 11px;
+
   border-top: 1px dashed #cdd7e1;
 
-  font-size: 0.96em;
+  font-size: 1em;
+  line-height: 1.65;
+
   color: #4d5965;
 }
 
@@ -368,11 +390,12 @@ categories: [학회소식, 워크샵]
   margin-bottom: 19px;
 
   text-align: center;
-  font-size: 1em;
+
+  font-size: 1.06em;
 }
 
 .registration-table th {
-  padding: 13px 11px;
+  padding: 14px 11px;
 
   background: #17365d;
   color: #ffffff;
@@ -381,7 +404,10 @@ categories: [학회소식, 워크샵]
 
   font-size: 1em;
   font-weight: 700;
+
   text-align: center;
+
+  line-height: 1.5;
 }
 
 .registration-table th:last-child {
@@ -389,15 +415,18 @@ categories: [학회소식, 워크샵]
 }
 
 .registration-table td {
-  padding: 15px 11px;
+  padding: 16px 11px;
 
   border-right: 1px solid #dbe2e8;
   border-bottom: 1px solid #dbe2e8;
 
   font-size: 1em;
   font-weight: 600;
+
   text-align: center;
   vertical-align: middle;
+
+  line-height: 1.6;
 }
 
 .registration-table td:last-child {
@@ -434,10 +463,11 @@ categories: [학회소식, 워크샵]
   margin: 16px 0;
 
   background: #f5f8fb;
+
   border-left: 4px solid #2f75b5;
   border-radius: 4px;
 
-  font-size: 0.98em;
+  font-size: 1em;
   line-height: 1.85;
 }
 
@@ -464,14 +494,17 @@ categories: [학회소식, 워크샵]
   padding: 15px 21px;
 
   background: #17365d;
+
   border: 1px solid #17365d;
   border-radius: 6px;
 
   color: #ffffff !important;
+
   text-align: center;
 
   font-size: 18px;
   font-weight: 700;
+
   text-decoration: none !important;
 
   transition: all 0.2s ease;
@@ -484,7 +517,9 @@ categories: [학회소식, 워크샵]
 
 .button.secondary {
   background: #ffffff;
+
   color: #17365d !important;
+
   border: 2px solid #17365d;
 }
 
@@ -507,6 +542,11 @@ categories: [학회소식, 워크샵]
     font-size: 1.15em;
   }
 
+
+  .info-table {
+    font-size: 0.95em;
+  }
+
   .info-table th {
     width: 27%;
     padding: 11px 8px;
@@ -516,14 +556,16 @@ categories: [학회소식, 워크샵]
     padding: 11px;
   }
 
+
   .program-table {
-    font-size: 0.84em;
+    font-size: 0.9em;
   }
 
   .program-table th,
   .program-table td {
-    padding: 9px 5px;
+    padding: 10px 6px;
   }
+
 
   .time-cell {
     width: 20%;
@@ -538,18 +580,21 @@ categories: [학회소식, 워크샵]
     width: 25%;
   }
 
+
   .special-session-wrap {
     grid-template-columns: 1fr;
   }
 
+
   .registration-table {
-    font-size: 0.88em;
+    font-size: 0.92em;
   }
 
   .registration-table th,
   .registration-table td {
-    padding: 11px 5px;
+    padding: 12px 6px;
   }
+
 
   .button {
     font-size: 17px;
@@ -612,32 +657,46 @@ categories: [학회소식, 워크샵]
 <table class="info-table">
 
   <tr>
-    <th>일시</th>
+
+    <th>
+      일시
+    </th>
 
     <td>
       2026.10.07.(수) - 10.08.(목)
     </td>
+
   </tr>
 
 
   <tr>
-    <th>장소</th>
+
+    <th>
+      장소
+    </th>
 
     <td>
       코트야드 메리어트 평택 스튜디오 룸
     </td>
+
   </tr>
 
 
   <tr>
-    <th>주제</th>
+
+    <th>
+      주제
+    </th>
 
     <td>
+
       <strong>
         Overcoming the Limitations of Satellite Intelligence
         Using Large Language Models (LLM)
       </strong>
+
     </td>
+
   </tr>
 
 </table>
@@ -648,8 +707,13 @@ categories: [학회소식, 워크샵]
 ====================================== -->
 
 <div class="section-title">
-  <span class="icon">▣</span>
+
+  <span class="icon">
+    ▣
+  </span>
+
   프로그램 세부일정
+
 </div>
 
 
@@ -669,6 +733,7 @@ categories: [학회소식, 워크샵]
 
 
 <table class="program-table">
+
 
   <thead>
 
@@ -775,7 +840,9 @@ categories: [학회소식, 워크샵]
       <td class="content-cell">
 
         <div class="tutorial-title">
+
           GeoAI with LLM
+
         </div>
 
 
@@ -795,7 +862,7 @@ categories: [학회소식, 워크샵]
     </tr>
 
 
-    <!-- Lunch -->
+    <!-- 오찬 -->
 
     <tr class="meal-row">
 
@@ -878,8 +945,8 @@ categories: [학회소식, 워크샵]
           text-align:center;
           font-weight:700;
           color:#17365d;
-          margin-bottom:14px;
-          font-size:1.1em;
+          margin-bottom:15px;
+          font-size:1.15em;
         ">
 
           특별세션
@@ -929,7 +996,6 @@ categories: [학회소식, 워크샵]
 
             </div>
 
-
           </div>
 
 
@@ -972,7 +1038,6 @@ categories: [학회소식, 워크샵]
 
             </div>
 
-
           </div>
 
 
@@ -1012,7 +1077,7 @@ categories: [학회소식, 워크샵]
     </tr>
 
 
-    <!-- Dinner -->
+    <!-- 만찬 -->
 
     <tr class="meal-row">
 
@@ -1119,7 +1184,7 @@ categories: [학회소식, 워크샵]
     </tr>
 
 
-    <!-- 현장 탐방 -->
+    <!-- 현장탐방 -->
 
     <tr class="field-row">
 
@@ -1205,30 +1270,38 @@ categories: [학회소식, 워크샵]
     <tr class="early">
 
       <td>
+
         <strong>
           사전등록
         </strong>
+
       </td>
 
 
       <td>
+
         <strong>
           350,000원
         </strong>
+
       </td>
 
 
       <td>
+
         <strong>
           200,000원
         </strong>
+
       </td>
 
 
       <td>
+
         <strong>
           ~ 2026.10.02.(금)
         </strong>
+
       </td>
 
     </tr>
@@ -1239,23 +1312,29 @@ categories: [학회소식, 워크샵]
     <tr class="onsite">
 
       <td>
+
         <strong>
           현장등록
         </strong>
+
       </td>
 
 
       <td>
+
         <strong>
           450,000원
         </strong>
+
       </td>
 
 
       <td>
+
         <strong>
           250,000원
         </strong>
+
       </td>
 
 
@@ -1270,7 +1349,9 @@ categories: [학회소식, 워크샵]
 </table>
 
 
-<!-- 등록 안내 -->
+<!-- ======================================
+     등록 안내
+====================================== -->
 
 <div class="notice-box">
 
@@ -1280,9 +1361,11 @@ categories: [학회소식, 워크샵]
     <li>
 
       등록비는
+
       <strong>
         튜토리얼 세션 포함
       </strong>
+
       입니다.
 
     </li>
@@ -1397,16 +1480,18 @@ categories: [학회소식, 워크샵]
 <div class="notice-box">
 
   특별세션 신청방법 및 등록비는
+
   <strong>
     학회 사무국으로 별도 문의
   </strong>
+
   하여 주시기 바랍니다.
 
 </div>
 
 
 <!-- ======================================
-     행사장
+     행사장 안내
 ====================================== -->
 
 <div class="section-title">
@@ -1472,11 +1557,14 @@ categories: [학회소식, 워크샵]
 <p style="
   margin-top:38px;
   padding-top:24px;
+
   border-top:1px solid #e1e5e9;
 
   text-align:center;
+
   font-size:1em;
   line-height:1.85em;
+
   color:#555;
 ">
 
@@ -1497,3 +1585,4 @@ categories: [학회소식, 워크샵]
 
 
 </div>
+```
