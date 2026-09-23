@@ -474,6 +474,33 @@ categories: [학회소식, 워크샵]
 
 
 /* =========================================
+   후원
+========================================= */
+
+.sponsor-box {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  padding: 20px 24px;
+
+  background: #f5f8fb;
+
+  border: 1px solid #d5dde5;
+  border-radius: 8px;
+
+  color: #17365d;
+
+  text-align: center;
+
+  font-size: 19px;
+  font-weight: 700;
+
+  line-height: 1.7;
+}
+
+
+/* =========================================
    버튼
 ========================================= */
 
@@ -624,6 +651,11 @@ categories: [학회소식, 워크샵]
 
   .notice-box {
     font-size: 16px;
+  }
+
+  .sponsor-box {
+    font-size: 17px;
+    padding: 17px 15px;
   }
 
   .button {
@@ -968,9 +1000,7 @@ categories: [학회소식, 워크샵]
     </tr>
 
 
-    <!-- ======================================
-         특별세션 I
-    ====================================== -->
+    <!-- 특별세션 I -->
 
     <tr class="special-row">
 
@@ -1049,9 +1079,7 @@ categories: [학회소식, 워크샵]
     </tr>
 
 
-    <!-- ======================================
-         특별세션 II
-    ====================================== -->
+    <!-- 특별세션 II -->
 
     <tr class="special-row">
 
@@ -1524,6 +1552,28 @@ categories: [학회소식, 워크샵]
   행사장 위치 확인
 
 </a>
+
+
+<!-- ======================================
+     후원
+====================================== -->
+
+<div class="section-title">
+
+  <span class="icon">
+    ▣
+  </span>
+
+  후원
+
+</div>
+
+
+<div class="sponsor-box">
+
+  (주)인성디앤엠
+
+</div>
 
 
 <br>
