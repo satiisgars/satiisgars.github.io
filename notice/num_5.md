@@ -1285,11 +1285,11 @@ categories: [학회소식, 워크샵]
       </th>
 
       <th style="width:26%;">
-        정회원(일반)
+        일반
       </th>
 
       <th style="width:26%;">
-        학생회원
+        학생
       </th>
 
       <th style="width:26%;">
