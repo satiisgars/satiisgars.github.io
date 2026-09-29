@@ -63,14 +63,12 @@ categories: [학회소식, 워크샵]
   border-radius: 8px;
 
   margin-bottom: 22px;
-
   font-size: 17px;
 }
 
 .info-table th,
 .info-table td {
   padding: 16px 18px;
-
   border-bottom: 1px solid #dfe5eb;
 
   font-size: 17px;
@@ -99,7 +97,7 @@ categories: [학회소식, 워크샵]
 
 
 /* =========================================
-   Day 제목
+   날짜 제목
 ========================================= */
 
 .day-title {
@@ -110,7 +108,6 @@ categories: [학회소식, 워크샵]
   padding: 14px 18px;
 
   background: #17365d;
-
   border-radius: 8px 8px 0 0;
 
   color: #ffffff;
@@ -138,7 +135,6 @@ categories: [학회소식, 워크샵]
 
   border-collapse: separate;
   border-spacing: 0;
-
   table-layout: fixed;
 
   border: 1px solid #cdd7e1;
@@ -157,7 +153,7 @@ categories: [학회소식, 워크샵]
   background: #2f75b5;
   color: #ffffff;
 
-  border-right: 1px solid rgba(255,255,255,0.3);
+  border-right: 1px solid rgba(255,255,255,0.30);
 
   text-align: center;
 
@@ -225,7 +221,7 @@ categories: [학회소식, 워크샵]
 
 
 /* =========================================
-   내용
+   발표내용
 ========================================= */
 
 .content-cell {
@@ -282,7 +278,6 @@ categories: [학회소식, 워크샵]
   color: #4a5a6a;
 
   font-size: 17px;
-
   line-height: 1.7;
 }
 
@@ -293,7 +288,6 @@ categories: [학회소식, 워크샵]
 
 .break-row td {
   background: #f4f5f6 !important;
-
   color: #5f6870;
 }
 
@@ -308,33 +302,15 @@ categories: [학회소식, 워크샵]
 
 
 /* =========================================
-   특별세션
+   특별세션 제목행
 ========================================= */
 
-.special-row td {
-  background: #f2f7fc !important;
+.special-session-header td {
+  background: #dce9f5 !important;
 }
 
-.special-title {
-  display: inline-block;
-
-  margin-bottom: 9px;
-  padding: 5px 14px;
-
-  background: #17365d;
-
-  border-radius: 5px;
-
-  color: #ffffff;
-
-  font-size: 18px;
-  font-weight: 700;
-
-  line-height: 1.5;
-}
-
-.special-topic {
-  color: #25384d;
+.special-session-title {
+  color: #17365d;
 
   font-size: 18px;
   font-weight: 700;
@@ -342,14 +318,47 @@ categories: [학회소식, 워크샵]
   line-height: 1.65;
 }
 
-.special-chair {
-  font-size: 17px;
+.special-session-chair {
+  margin-top: 5px;
 
-  line-height: 1.7;
+  color: #526273;
+
+  font-size: 16px;
+  font-weight: 500;
 }
 
-.special-chair strong {
-  color: #17365d;
+
+/* =========================================
+   특별세션 발표행
+========================================= */
+
+.special-detail-row td {
+  background: #f7fafd !important;
+}
+
+.special-detail-row .content-cell {
+  color: #26394e;
+
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.special-detail-row .presenter-cell {
+  color: #333333;
+
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.affiliation {
+  display: block;
+
+  margin-top: 3px;
+
+  color: #6a7682;
+
+  font-size: 15px;
+  font-weight: 400;
 }
 
 
@@ -425,21 +434,13 @@ categories: [학회소식, 워크샵]
   border-bottom: 0;
 }
 
-
-/* 사전등록 */
-
 .registration-table .early td {
   background: #edf5fc;
-
   color: #17365d;
 }
 
-
-/* 현장등록 */
-
 .registration-table .onsite td {
   background: #ffffff;
-
   color: #333333;
 }
 
@@ -464,7 +465,6 @@ categories: [학회소식, 워크샵]
 
 .notice-box ul {
   margin: 0;
-
   padding-left: 22px;
 }
 
@@ -479,7 +479,6 @@ categories: [학회소식, 워크샵]
 
 .sponsor-box {
   width: 100%;
-
   box-sizing: border-box;
 
   padding: 20px 24px;
@@ -532,7 +531,6 @@ categories: [학회소식, 워크샵]
 
 .button:hover {
   background: #2f75b5;
-
   border-color: #2f75b5;
 }
 
@@ -570,7 +568,6 @@ categories: [학회소식, 워크샵]
   .info-table th,
   .info-table td {
     font-size: 16px;
-
     padding: 12px 9px;
   }
 
@@ -584,13 +581,11 @@ categories: [학회소식, 워크샵]
 
   .program-table th {
     font-size: 15px;
-
     padding: 11px 5px;
   }
 
   .program-table td {
     font-size: 15px;
-
     padding: 11px 6px;
   }
 
@@ -598,7 +593,6 @@ categories: [학회소식, 워크샵]
     width: 22%;
 
     font-size: 15px;
-
     white-space: normal;
   }
 
@@ -608,13 +602,11 @@ categories: [학회소식, 워크샵]
 
   .content-cell {
     width: 53%;
-
     font-size: 15px;
   }
 
   .presenter-cell {
     width: 25%;
-
     font-size: 15px;
   }
 
@@ -626,16 +618,21 @@ categories: [학회소식, 워크샵]
     font-size: 15px;
   }
 
-  .special-title {
+  .special-session-title {
     font-size: 16px;
   }
 
-  .special-topic {
-    font-size: 16px;
+  .special-session-chair {
+    font-size: 14px;
   }
 
-  .special-chair {
+  .special-detail-row .content-cell,
+  .special-detail-row .presenter-cell {
     font-size: 15px;
+  }
+
+  .affiliation {
+    font-size: 13px;
   }
 
   .registration-table {
@@ -645,7 +642,6 @@ categories: [학회소식, 워크샵]
   .registration-table th,
   .registration-table td {
     font-size: 15px;
-
     padding: 12px 5px;
   }
 
@@ -738,6 +734,13 @@ categories: [학회소식, 워크샵]
     </td>
   </tr>
 
+  <tr>
+    <th>참석대상</th>
+    <td>
+      위성지능정보학회 임원 및 회원, 비회원
+    </td>
+  </tr>
+
 </table>
 
 
@@ -782,24 +785,13 @@ categories: [학회소식, 워크샵]
     <tr>
 
       <td class="time-cell">
-
         09:00–09:30
-
-        <span class="duration">
-          (30’)
-        </span>
-
+        <span class="duration">(30’)</span>
       </td>
-
 
       <td class="content-cell">
-
-        <strong>
-          등록
-        </strong>
-
+        <strong>등록</strong>
       </td>
-
 
       <td class="presenter-cell"></td>
 
@@ -811,29 +803,16 @@ categories: [학회소식, 워크샵]
     <tr class="opening-row">
 
       <td class="time-cell">
-
         09:30–09:40
-
-        <span class="duration">
-          (10’)
-        </span>
-
+        <span class="duration">(10’)</span>
       </td>
-
 
       <td class="content-cell">
-
-        <strong>
-          개회사
-        </strong>
-
+        <strong>개회사</strong>
       </td>
 
-
       <td class="presenter-cell">
-
         위성지능정보학회장
-
       </td>
 
     </tr>
@@ -844,34 +823,22 @@ categories: [학회소식, 워크샵]
     <tr class="tutorial-row">
 
       <td class="time-cell">
-
         09:40–11:10
-
-        <span class="duration">
-          (90’)
-        </span>
-
+        <span class="duration">(90’)</span>
       </td>
-
 
       <td class="content-cell">
 
         <div class="tutorial-title">
-
           GeoAI with LLM (Ⅰ)
-
         </div>
 
-
         <div class="tutorial-subtitle">
-
           - 바이브 코딩 기반<br>
           데이터 전처리 및 딥러닝 모델 학습 (Ⅰ) -
-
         </div>
 
       </td>
-
 
       <td class="presenter-cell"></td>
 
@@ -883,22 +850,13 @@ categories: [학회소식, 워크샵]
     <tr class="break-row">
 
       <td class="time-cell">
-
         11:10–11:30
-
-        <span class="duration">
-          (20’)
-        </span>
-
+        <span class="duration">(20’)</span>
       </td>
-
 
       <td class="content-cell">
-
         Coffee Break (휴식)
-
       </td>
-
 
       <td class="presenter-cell"></td>
 
@@ -910,34 +868,22 @@ categories: [학회소식, 워크샵]
     <tr class="tutorial-row">
 
       <td class="time-cell">
-
         11:30–13:00
-
-        <span class="duration">
-          (90’)
-        </span>
-
+        <span class="duration">(90’)</span>
       </td>
-
 
       <td class="content-cell">
 
         <div class="tutorial-title">
-
           GeoAI with LLM (Ⅱ)
-
         </div>
 
-
         <div class="tutorial-subtitle">
-
           - 바이브 코딩 기반<br>
           데이터 전처리 및 딥러닝 모델 학습 (Ⅱ) -
-
         </div>
 
       </td>
-
 
       <td class="presenter-cell"></td>
 
@@ -949,24 +895,13 @@ categories: [학회소식, 워크샵]
     <tr class="meal-row">
 
       <td class="time-cell">
-
         13:00–14:00
-
-        <span class="duration">
-          (60’)
-        </span>
-
+        <span class="duration">(60’)</span>
       </td>
-
 
       <td class="content-cell">
-
-        <strong>
-          자유토론 및 오찬
-        </strong>
-
+        <strong>자유토론 및 오찬</strong>
       </td>
-
 
       <td class="presenter-cell"></td>
 
@@ -978,75 +913,83 @@ categories: [학회소식, 워크샵]
     <tr class="break-row">
 
       <td class="time-cell">
-
         14:00–14:30
-
-        <span class="duration">
-          (30’)
-        </span>
-
+        <span class="duration">(30’)</span>
       </td>
-
 
       <td class="content-cell">
-
         Coffee Break (휴식)
-
       </td>
-
 
       <td class="presenter-cell"></td>
 
     </tr>
 
 
-    <!-- 특별세션 I -->
+    <!-- ======================================
+         특별세션 I 제목
+    ====================================== -->
 
-    <tr class="special-row">
+    <tr class="special-session-header">
 
       <td class="time-cell">
-
         14:30–15:50
+        <span class="duration">(80’)</span>
+      </td>
 
-        <span class="duration">
-          (80’)
-        </span>
+      <td colspan="2" class="content-cell">
+
+        <div class="special-session-title">
+          특별세션Ⅰ: EMSA INR 기술 개발 및 검증
+        </div>
+
+        <div class="special-session-chair">
+          좌장: 정형섭 (서울시립대학교)
+        </div>
 
       </td>
 
+    </tr>
+
+
+    <!-- 특별세션 I 발표 -->
+
+    <tr class="special-detail-row">
+
+      <td class="time-cell">
+        14:30–15:10
+        <span class="duration">(40’)</span>
+      </td>
 
       <td class="content-cell">
-
-        <div class="special-title">
-
-          특별세션 Ⅰ
-
-        </div>
-
-
-        <div class="special-topic">
-
-          EMSA INR 기술 개발 및 검증
-
-        </div>
-
+        EMSA 항공환경센서의 INR 기술 개발 및 정확도 검증
       </td>
 
+      <td class="presenter-cell">
+        <strong>정형섭</strong>
+        <span class="affiliation">
+          서울시립대학교
+        </span>
+      </td>
 
-      <td class="presenter-cell special-chair">
+    </tr>
 
-        <strong>
-          좌장
-        </strong>
 
-        <br>
+    <!-- 특별세션 I 자문 -->
 
-        정형섭
+    <tr class="special-detail-row">
 
-        <br>
+      <td class="time-cell">
+        15:10–15:50
+        <span class="duration">(40’)</span>
+      </td>
 
-        (서울시립대학교)
+      <td class="content-cell">
+        기술 자문 및 토론
+      </td>
 
+      <td class="presenter-cell">
+        <strong>전문 자문위원단</strong>
       </td>
 
     </tr>
@@ -1057,76 +1000,128 @@ categories: [학회소식, 워크샵]
     <tr class="break-row">
 
       <td class="time-cell">
-
         15:50–16:10
-
-        <span class="duration">
-          (20’)
-        </span>
-
+        <span class="duration">(20’)</span>
       </td>
-
 
       <td class="content-cell">
-
         Coffee Break (휴식)
-
       </td>
-
 
       <td class="presenter-cell"></td>
 
     </tr>
 
 
-    <!-- 특별세션 II -->
+    <!-- ======================================
+         특별세션 II 제목
+    ====================================== -->
 
-    <tr class="special-row">
+    <tr class="special-session-header">
 
       <td class="time-cell">
-
         16:10–17:30
+        <span class="duration">(80’)</span>
+      </td>
 
-        <span class="duration">
-          (80’)
-        </span>
+      <td colspan="2" class="content-cell">
+
+        <div class="special-session-title">
+          특별세션Ⅱ: 지질·해양·환경 분야 GeoAI 활용기술 개발
+        </div>
+
+        <div class="special-session-chair">
+          좌장: 정형섭 (서울시립대학교)
+        </div>
 
       </td>
 
+    </tr>
+
+
+    <!-- 발표 1 -->
+
+    <tr class="special-detail-row">
+
+      <td class="time-cell">
+        16:10–16:30
+        <span class="duration">(20’)</span>
+      </td>
 
       <td class="content-cell">
-
-        <div class="special-title">
-
-          특별세션 Ⅱ
-
-        </div>
-
-
-        <div class="special-topic">
-
-          지질·해양·환경 분야 GeoAI 활용기술 개발
-
-        </div>
-
+        최신 기계학습 및 검증 기법을 적용한 지하수 산출 가능성도 작성
       </td>
 
-
-      <td class="presenter-cell special-chair">
-
-        <strong>
-          좌장
-        </strong>
-
-        <br>
-
-        정형섭
-
-        <br>
-
-        (서울시립대학교)
-
+      <td class="presenter-cell">
+        <strong>이사로</strong>
+        <span class="affiliation">
+          한국지질자원연구원
+        </span>
       </td>
+
+    </tr>
+
+
+    <!-- 발표 2 -->
+
+    <tr class="special-detail-row">
+
+      <td class="time-cell">
+        16:30–16:50
+        <span class="duration">(20’)</span>
+      </td>
+
+      <td class="content-cell">
+        해양위성 및 인공지능 융합 활용 연구
+      </td>
+
+      <td class="presenter-cell">
+        <strong>최종국</strong>
+        <span class="affiliation">
+          한국해양과학기술원
+        </span>
+      </td>
+
+    </tr>
+
+
+    <!-- 발표 3 -->
+
+    <tr class="special-detail-row">
+
+      <td class="time-cell">
+        16:50–17:10
+        <span class="duration">(20’)</span>
+      </td>
+
+      <td class="content-cell">
+        자연재해(산사태 등) AI 파운데이션 모델 기초 정립 연구
+      </td>
+
+      <td class="presenter-cell">
+        <strong>이명진</strong>
+        <span class="affiliation">
+          한국환경연구원
+        </span>
+      </td>
+
+    </tr>
+
+
+    <!-- 종합 토론 -->
+
+    <tr class="special-detail-row">
+
+      <td class="time-cell">
+        17:10–17:30
+        <span class="duration">(20’)</span>
+      </td>
+
+      <td class="content-cell">
+        종합 질의응답 및 토론
+      </td>
+
+      <td class="presenter-cell"></td>
 
     </tr>
 
@@ -1136,24 +1131,13 @@ categories: [학회소식, 워크샵]
     <tr class="meal-row">
 
       <td class="time-cell">
-
         17:30–19:00
-
-        <span class="duration">
-          (90’)
-        </span>
-
+        <span class="duration">(90’)</span>
       </td>
-
 
       <td class="content-cell">
-
-        <strong>
-          자유토론 및 만찬
-        </strong>
-
+        <strong>자유토론 및 만찬</strong>
       </td>
-
 
       <td class="presenter-cell"></td>
 
@@ -1196,58 +1180,32 @@ categories: [학회소식, 워크샵]
   <tbody>
 
 
-    <!-- 등록 -->
-
     <tr>
 
       <td class="time-cell">
-
         09:00–09:30
-
-        <span class="duration">
-          (30’)
-        </span>
-
+        <span class="duration">(30’)</span>
       </td>
-
 
       <td class="content-cell">
-
-        <strong>
-          등록
-        </strong>
-
+        <strong>등록</strong>
       </td>
-
 
       <td class="presenter-cell"></td>
 
     </tr>
 
 
-    <!-- 현장 탐방 -->
-
     <tr class="field-row">
 
       <td class="time-cell">
-
         09:30–12:00
-
-        <span class="duration">
-          (150’)
-        </span>
-
+        <span class="duration">(150’)</span>
       </td>
-
 
       <td class="content-cell">
-
-        <strong>
-          현장 탐방(국립생태원)
-        </strong>
-
+        <strong>현장 탐방(국립생태원)</strong>
       </td>
-
 
       <td class="presenter-cell"></td>
 
@@ -1265,9 +1223,7 @@ categories: [학회소식, 워크샵]
 
 <div class="section-title">
 
-  <span class="icon">
-    ▣
-  </span>
+  <span class="icon">▣</span>
 
   등록비 안내
 
@@ -1285,11 +1241,11 @@ categories: [학회소식, 워크샵]
       </th>
 
       <th style="width:26%;">
-        일반
+        정회원(일반)
       </th>
 
       <th style="width:26%;">
-        학생
+        학생회원
       </th>
 
       <th style="width:26%;">
@@ -1307,27 +1263,20 @@ categories: [학회소식, 워크샵]
     <tr class="early">
 
       <td>
-        <strong>
-          사전등록
-        </strong>
+        <strong>사전등록</strong>
       </td>
-
 
       <td>
-        <strong>
-          350,000원
-        </strong>
+        <strong>350,000원</strong>
       </td>
-
 
       <td>
-        <strong>
-          200,000원
-        </strong>
+        <strong>200,000원</strong>
       </td>
 
-
-      <td></td>
+      <td>
+        2026.09.21. - 10.02.
+      </td>
 
     </tr>
 
@@ -1335,25 +1284,16 @@ categories: [학회소식, 워크샵]
     <tr class="onsite">
 
       <td>
-        <strong>
-          현장등록
-        </strong>
+        <strong>현장등록</strong>
       </td>
-
 
       <td>
-        <strong>
-          450,000원
-        </strong>
+        <strong>450,000원</strong>
       </td>
-
 
       <td>
-        <strong>
-          250,000원
-        </strong>
+        <strong>250,000원</strong>
       </td>
-
 
       <td></td>
 
@@ -1374,61 +1314,32 @@ categories: [학회소식, 워크샵]
   <ul>
 
     <li>
-
       등록비는
-      <strong>
-        튜토리얼 세션 포함
-      </strong>
-      입니다.
-
+      <strong>튜토리얼 세션 포함</strong>입니다.
     </li>
 
-
     <li>
-
-      <strong>
-        사전등록마감 :
-      </strong>
-
-      ~ 2026.10.02.(금)까지
-
+      <strong>사전등록기간 :</strong>
+      2026.09.21.(월) - 2026.10.02.(금)
     </li>
 
-
     <li>
-
-      <strong>
-        결제방법 :
-      </strong>
-
+      <strong>결제방법 :</strong>
       신용카드 결제 및 계좌이체
-
     </li>
 
-
     <li>
-
-      <strong>
-        등록비 납부계좌 :
-      </strong>
-
+      <strong>등록비 납부계좌 :</strong>
       우리은행, 1005-304-831659
       [예금주: 위성지능정보학회]
-
     </li>
 
-
     <li>
-
       등록비 입금 시 등록자명으로 입금해주시기 바라며,
       등록자명과 송금인이 다를 경우 반드시 학회 사무국
-
       (<a href="mailto:satiis.society@gmail.com">
         satiis.society@gmail.com
-      </a>)
-
-      으로 연락바랍니다.
-
+      </a>)으로 연락바랍니다.
     </li>
 
   </ul>
@@ -1442,9 +1353,7 @@ categories: [학회소식, 워크샵]
 
 <div class="section-title">
 
-  <span class="icon">
-    ▣
-  </span>
+  <span class="icon">▣</span>
 
   사전등록하기
 
@@ -1479,9 +1388,7 @@ categories: [학회소식, 워크샵]
 
 <div class="section-title">
 
-  <span class="icon">
-    ▣
-  </span>
+  <span class="icon">▣</span>
 
   특별세션 신청 안내
 
@@ -1491,10 +1398,7 @@ categories: [학회소식, 워크샵]
 <div class="notice-box">
 
   특별세션 신청방법 및 등록비는
-  <strong>
-    학회 사무국으로 별도 문의
-  </strong>
-  하여 주시기 바랍니다.
+  <strong>학회 사무국으로 별도 문의</strong>하여 주시기 바랍니다.
 
 </div>
 
@@ -1505,9 +1409,7 @@ categories: [학회소식, 워크샵]
 
 <div class="section-title">
 
-  <span class="icon">
-    ▣
-  </span>
+  <span class="icon">▣</span>
 
   행사장 안내
 
@@ -1560,9 +1462,7 @@ categories: [학회소식, 워크샵]
 
 <div class="section-title">
 
-  <span class="icon">
-    ▣
-  </span>
+  <span class="icon">▣</span>
 
   후원
 
