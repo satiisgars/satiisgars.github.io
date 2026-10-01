@@ -1,0 +1,35 @@
+{%- assign nav_label = page.nav-label | default: page.title -%}
+{%- assign group = site.navbar-links[page.section] -%}
+{%- case page.section -%}
+  {%- when "학회소개" -%}{%- assign section_en = "About SATIIS" -%}
+  {%- when "학회조직" -%}{%- assign section_en = "Organization" -%}
+  {%- when "학술대회" -%}{%- assign section_en = "Conference" -%}
+  {%- when "알림마당" -%}{%- assign section_en = "News & Notice" -%}
+  {%- when "회원공간" -%}{%- assign section_en = "Membership" -%}
+  {%- else -%}{%- assign section_en = "SATIIS" -%}
+{%- endcase -%}
+<section class="page-hero">
+  <div class="orbit" aria-hidden="true"></div>
+  <div class="container page-hero-inner">
+    <ol class="breadcrumb">
+      <li><a href="{{ '/' | relative_url }}">홈</a></li>
+      {% if page.section %}<li>{{ page.section }}</li>{% endif %}
+      <li>{{ include.title | default: page.title }}</li>
+    </ol>
+    <h1>{{ include.heading | default: page.title }}</h1>
+    {% if page.lead %}<p class="lead">{{ page.lead }}</p>{% else %}<span class="eyebrow">{{ section_en }}</span>{% endif %}
+  </div>
+  {% if group and group.size > 1 %}
+  <nav class="subnav" aria-label="{{ page.section }} 메뉴">
+    <div class="container">
+      <ul>
+        {%- for child in group -%}
+        {%- for parts in child %}
+        <li><a href="{{ parts[1] | prepend: '/' | relative_url }}"{% if nav_label == parts[0] %} class="is-current" aria-current="page"{% endif %}>{{ parts[0] }}</a></li>
+        {%- endfor -%}
+        {%- endfor %}
+      </ul>
+    </div>
+  </nav>
+  {% endif %}
+</section>

@@ -1,0 +1,122 @@
+{%- comment -%}
+  행사 공지 양식 — 공지 front matter의 구조화 항목(개요·프로그램·등록비 등)을
+  기존 워크샵 공지와 같은 형태로 그려 줍니다. 비어 있는 항목은 표시되지 않습니다.
+  include.part = "top"  : 인사말 ~ 자유 섹션
+  include.part = "bottom": 행사장 ~ 맺음말
+{%- endcomment -%}
+{%- assign d = page -%}
+
+{%- if include.part == "top" -%}
+
+{%- if d.intro -%}
+<div class="ev-intro">{{ d.intro | newline_to_br | markdownify }}</div>
+{%- endif -%}
+
+{%- if d.overview and d.overview.size > 0 %}
+<h4 class="ev-title">{{ d.overview_title | default: "행사 개요" }}</h4>
+<table class="ev-info">
+  <tbody>
+    {%- for r in d.overview %}
+    <tr><th scope="row">{{ r.label }}</th><td>{{ r.value | markdownify | remove: "<p>" | remove: "</p>" | strip }}</td></tr>
+    {%- endfor %}
+  </tbody>
+</table>
+{%- endif -%}
+
+{%- if d.program and d.program.size > 0 %}
+<h4 class="ev-title">프로그램 세부일정</h4>
+{%- for day in d.program %}
+{%- if day.day or day.label %}
+<div class="ev-day">{{ day.day }}{% if day.label %}<span>{{ day.label }}</span>{% endif %}</div>
+{%- endif %}
+<table class="ev-program">
+  <colgroup><col class="c-time"><col><col class="c-speaker"></colgroup>
+  <thead><tr><th>시간</th><th>발표주제 및 내용</th><th>발표자</th></tr></thead>
+  <tbody>
+    {%- for r in day.rows %}
+    {%- case r.kind -%}
+      {%- when "개회" -%}{%- assign k = "opening" -%}
+      {%- when "강연" -%}{%- assign k = "lecture" -%}
+      {%- when "세션" -%}{%- assign k = "session" -%}
+      {%- when "발표" -%}{%- assign k = "talk" -%}
+      {%- when "휴식" -%}{%- assign k = "break" -%}
+      {%- when "식사" -%}{%- assign k = "meal" -%}
+      {%- when "현장" -%}{%- assign k = "field" -%}
+      {%- else -%}{%- assign k = "normal" -%}
+    {%- endcase %}
+    <tr class="ev-{{ k }}">
+      <td class="ev-time">{{ r.time }}{% if r.duration %}<span>({{ r.duration }})</span>{% endif %}</td>
+      {%- if k == "session" %}
+      <td class="ev-content" colspan="2"><strong>{{ r.title }}</strong>{% if r.detail %}<span class="ev-sub">{{ r.detail | newline_to_br }}</span>{% endif %}</td>
+      {%- else %}
+      <td class="ev-content">{% if k == "break" %}{{ r.title }}{% else %}<strong>{{ r.title }}</strong>{% endif %}{% if r.detail %}<span class="ev-sub">{{ r.detail | newline_to_br }}</span>{% endif %}</td>
+      <td class="ev-speaker">{% if r.speaker %}<strong>{{ r.speaker }}</strong>{% endif %}{% if r.affiliation %}<span>{{ r.affiliation }}</span>{% endif %}</td>
+      {%- endif %}
+    </tr>
+    {%- endfor %}
+  </tbody>
+</table>
+{%- endfor %}
+{%- endif -%}
+
+{%- if d.fees and d.fees.rows and d.fees.rows.size > 0 %}
+<h4 class="ev-title">{{ d.fees.title | default: "등록비 안내" }}</h4>
+<table class="ev-fees">
+  {%- if d.fees.headers %}
+  <thead><tr>{% for h in d.fees.headers %}<th>{{ h }}</th>{% endfor %}</tr></thead>
+  {%- endif %}
+  <tbody>
+    {%- for r in d.fees.rows %}
+    <tr>{% for c in r.cells %}{% if forloop.first %}<th scope="row">{{ c }}</th>{% else %}<td>{{ c }}</td>{% endif %}{% endfor %}</tr>
+    {%- endfor %}
+  </tbody>
+</table>
+{%- endif -%}
+
+{%- if d.fee_notes and d.fee_notes.size > 0 %}
+<div class="ev-box">
+  <ul>
+    {%- for n in d.fee_notes %}
+    <li>{{ n | markdownify | remove: "<p>" | remove: "</p>" | strip }}</li>
+    {%- endfor %}
+  </ul>
+</div>
+{%- endif -%}
+
+{%- if d.register and d.register.url %}
+<h4 class="ev-title">{{ d.register.heading | default: "사전등록하기" }}</h4>
+{% if d.register.text %}<p class="ev-center">{{ d.register.text }}</p>{% endif %}
+<a class="button" href="{{ d.register.url }}" target="_blank" rel="noopener">{{ d.register.label | default: "사전등록 신청하기" }}</a>
+{%- endif -%}
+
+{%- if d.sections and d.sections.size > 0 -%}
+{%- for s in d.sections %}
+{% if s.heading %}<h4 class="ev-title">{{ s.heading }}</h4>{% endif %}
+{% if s.content %}<div class="ev-section">{{ s.content | markdownify }}</div>{% endif %}
+{% if s.button_url %}<a class="button{% if s.button_style == '보조' %} secondary{% endif %}" href="{{ s.button_url }}" target="_blank" rel="noopener">{{ s.button_label | default: "자세히 보기" }}</a>{% endif %}
+{%- endfor -%}
+{%- endif -%}
+
+{%- else -%}
+
+{%- if d.venue and d.venue.name %}
+<h4 class="ev-title">행사장 안내</h4>
+<table class="ev-info">
+  <tbody>
+    <tr><th scope="row">행사장</th><td>{{ d.venue.name }}</td></tr>
+    {% if d.venue.address %}<tr><th scope="row">주소</th><td>{{ d.venue.address }}</td></tr>{% endif %}
+  </tbody>
+</table>
+{% if d.venue.map_url %}<a class="button secondary" href="{{ d.venue.map_url }}" target="_blank" rel="noopener">행사장 위치 확인</a>{% endif %}
+{%- endif -%}
+
+{%- if d.sponsors and d.sponsors.size > 0 %}
+<h4 class="ev-title">후원</h4>
+<div class="ev-sponsors">{% for s in d.sponsors %}<span>{{ s }}</span>{% endfor %}</div>
+{%- endif -%}
+
+{%- if d.closing %}
+<p class="ev-closing">{{ d.closing | newline_to_br }}<strong>{{ site.society.name-ko }} 드림</strong></p>
+{%- endif -%}
+
+{%- endif -%}

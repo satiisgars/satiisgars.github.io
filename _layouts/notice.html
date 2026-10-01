@@ -1,0 +1,71 @@
+---
+layout: base
+---
+{% include page-hero.html heading="학회소식" title="학회소식" %}
+
+{%- assign cat = page.category | default: page.categories.last | default: "공지" -%}
+{%- assign notices = site.notice | sort: "date" | reverse -%}
+{%- for n in notices -%}
+  {%- if n.url == page.url -%}
+    {%- assign idx = forloop.index0 -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign newer_idx = idx | minus: 1 -%}
+{%- assign older_idx = idx | plus: 1 -%}
+
+<div class="page-body">
+  <div class="container container-narrow">
+    <article>
+      <header class="article-head">
+        <span class="badge" data-cat="{{ cat }}">{{ cat }}</span>
+        <h2>{{ page.title }}</h2>
+        <div class="article-meta">
+          <span>{{ site.society.name-ko }}</span>
+          <span class="dot"></span>
+          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y년 %-m월 %-d일" }}</time>
+        </div>
+      </header>
+
+      {% if page.image %}
+      <figure class="article-image">
+        <img src="{{ page.image | relative_url }}" alt="{{ page.title }} 포스터">
+      </figure>
+      {% endif %}
+
+      <div class="prose">
+        {% include notice-template.html part="top" %}
+        {{ content }}
+        {% include notice-template.html part="bottom" %}
+      </div>
+
+      {% if page.attachments and page.attachments.size > 0 %}
+      <aside class="attachments">
+        <h3>첨부파일</h3>
+        <ul>
+          {% for f in page.attachments %}
+          {%- assign fpath = f.file | default: f -%}
+          <li><a href="{{ fpath | relative_url }}" download>{% include icon.html name="file" %}{{ f.name | default: fpath | split: "/" | last }}</a></li>
+          {% endfor %}
+        </ul>
+      </aside>
+      {% endif %}
+    </article>
+
+    <nav class="article-nav" aria-label="이전·다음 글">
+      {% if newer_idx >= 0 %}{% assign n = notices[newer_idx] %}
+      <a href="{{ n.url | relative_url }}"><span class="dir">다음 글</span><span class="t">{{ n.title }}</span></a>
+      {% else %}
+      <span class="none"><span class="dir">다음 글</span><span>다음 글이 없습니다.</span></span>
+      {% endif %}
+      {% if older_idx < notices.size %}{% assign n = notices[older_idx] %}
+      <a href="{{ n.url | relative_url }}"><span class="dir">이전 글</span><span class="t">{{ n.title }}</span></a>
+      {% else %}
+      <span class="none"><span class="dir">이전 글</span><span>이전 글이 없습니다.</span></span>
+      {% endif %}
+    </nav>
+
+    <div class="article-actions">
+      <a class="btn btn-outline" href="{{ '/학회소식' | relative_url }}">{% include icon.html name="list" %} 목록으로</a>
+    </div>
+  </div>
+</div>

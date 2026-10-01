@@ -1,4 +1,216 @@
 ---
+layout: base
+title: 위성지능정보학회
 ---
-<img src="assets/img/poster.png" style="width:100%;height:100%;">
+{%- assign ev = site.data.event -%}
+{%- assign notices = site.notice | sort: "date" | reverse -%}
+{%- assign now = site.time | date: "%s" | plus: 0 -%}
 
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="grid"></div>
+    <div class="stars">
+      {%- for i in (1..46) -%}
+      {%- assign x = i | times: 37 | modulo: 100 -%}
+      {%- assign y = i | times: 53 | modulo: 97 -%}
+      {%- assign d = i | times: 7 | modulo: 40 | divided_by: 10.0 -%}
+      {%- assign big = i | modulo: 5 -%}
+      <i style="left:{{ x }}%;top:{{ y }}%;animation-delay:{{ d }}s;{% if big == 0 %}width:3px;height:3px;{% endif %}"></i>
+      {%- endfor -%}
+    </div>
+    <div class="hero-visual">
+      <svg viewBox="0 0 800 800" fill="none">
+        <defs>
+          <radialGradient id="earth" cx="38%" cy="32%" r="75%">
+            <stop offset="0" stop-color="#2f6fe0"/>
+            <stop offset=".45" stop-color="#143a96"/>
+            <stop offset=".8" stop-color="#0a1a4a"/>
+            <stop offset="1" stop-color="#050b1f"/>
+          </radialGradient>
+          <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+            <stop offset=".72" stop-color="#19c6e6" stop-opacity="0"/>
+            <stop offset=".8" stop-color="#19c6e6" stop-opacity=".35"/>
+            <stop offset="1" stop-color="#19c6e6" stop-opacity="0"/>
+          </radialGradient>
+          <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#7ee8fa"/>
+            <stop offset="1" stop-color="#7ee8fa" stop-opacity="0"/>
+          </linearGradient>
+          <filter id="blur"><feGaussianBlur stdDeviation="3"/></filter>
+          <clipPath id="clip"><circle cx="400" cy="400" r="230"/></clipPath>
+        </defs>
+        <circle cx="400" cy="400" r="320" fill="url(#glow)"/>
+        <circle cx="400" cy="400" r="230" fill="url(#earth)"/>
+        <g clip-path="url(#clip)" stroke="#7ee8fa" stroke-opacity=".16" stroke-width="1">
+          <ellipse cx="400" cy="400" rx="230" ry="60"/>
+          <ellipse cx="400" cy="400" rx="230" ry="130"/>
+          <ellipse cx="400" cy="400" rx="230" ry="195"/>
+          <line x1="170" y1="400" x2="630" y2="400"/>
+          <ellipse cx="400" cy="400" rx="60" ry="230"/>
+          <ellipse cx="400" cy="400" rx="130" ry="230"/>
+          <ellipse cx="400" cy="400" rx="195" ry="230"/>
+          <line x1="400" y1="170" x2="400" y2="630"/>
+        </g>
+        <g clip-path="url(#clip)" fill="#19c6e6" fill-opacity=".9">
+          {%- for i in (1..60) -%}
+          {%- assign cx = i | times: 61 | modulo: 380 | plus: 210 -%}
+          {%- assign cy = i | times: 97 | modulo: 380 | plus: 210 -%}
+          {%- assign m4 = i | modulo: 4 -%}{%- assign m3 = i | modulo: 3 -%}
+          <circle cx="{{ cx }}" cy="{{ cy }}" r="{% if m4 == 0 %}2{% else %}1.2{% endif %}" opacity="{% if m3 == 0 %}.9{% else %}.45{% endif %}"/>
+          {%- endfor -%}
+        </g>
+        <circle cx="400" cy="400" r="230" stroke="url(#rim)" stroke-width="2"/>
+        <g class="spin">
+          <ellipse cx="400" cy="400" rx="330" ry="120" stroke="#19c6e6" stroke-opacity=".45" stroke-width="1.2" transform="rotate(-24 400 400)"/>
+          <g transform="rotate(-24 400 400)">
+            <circle cx="730" cy="400" r="6" fill="#19c6e6"/>
+            <circle cx="730" cy="400" r="14" fill="#19c6e6" opacity=".25" filter="url(#blur)"/>
+          </g>
+        </g>
+        <g class="spin-rev">
+          <ellipse cx="400" cy="400" rx="370" ry="200" stroke="#ffffff" stroke-opacity=".18" stroke-dasharray="2 8" transform="rotate(32 400 400)"/>
+          <g transform="rotate(32 400 400)">
+            <rect x="24" y="394" width="12" height="12" rx="2" fill="#fff"/>
+            <rect x="8" y="397" width="14" height="6" fill="#7aa8ff"/>
+            <rect x="38" y="397" width="14" height="6" fill="#7aa8ff"/>
+          </g>
+        </g>
+        <circle cx="400" cy="400" r="290" stroke="#ffffff" stroke-opacity=".08"/>
+        <circle cx="400" cy="400" r="395" stroke="#ffffff" stroke-opacity=".05"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="hero-content">
+      <span class="eyebrow">Satellite Intelligence Information Society</span>
+      <h1>우주에서 지구로,<br><em>데이터에서 지혜로</em></h1>
+      <p class="lead">위성자료와 공간정보에 <strong>인공지능 기술</strong>을 융합하여 <strong>새로운 가치</strong>를 창출하는 학술단체, 위성지능정보학회입니다.</p>
+      <div class="hero-actions">
+        <a class="btn btn-accent" href="{{ ev.notice | default: '/행사일정' | relative_url }}">{{ ev.title | remove: " 개최 안내" }} {% include icon.html name="arrow" %}</a>
+        <a class="btn btn-ghost" href="{{ '/인사말' | relative_url }}">학회 소개</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll" aria-hidden="true">SCROLL</div>
+</section>
+
+<!-- ============ QUICK LINKS ============ -->
+<section class="quick">
+  <div class="container">
+    <div class="quick-grid">
+      <a class="quick-item" href="{{ '/학회소식' | relative_url }}">
+        <span class="quick-icon">{% include icon.html name="megaphone" %}</span>
+        <div><strong>학회소식</strong><span>공지사항과 학회 소식</span></div>
+      </a>
+      <a class="quick-item" href="{{ '/행사일정' | relative_url }}">
+        <span class="quick-icon">{% include icon.html name="calendar" %}</span>
+        <div><strong>행사일정</strong><span>워크샵·세미나·교육</span></div>
+      </a>
+      <a class="quick-item" href="{{ '/회원가입안내' | relative_url }}">
+        <span class="quick-icon">{% include icon.html name="user-plus" %}</span>
+        <div><strong>회원가입</strong><span>회원 구분과 가입 절차</span></div>
+      </a>
+      <a class="quick-item" href="{{ '/정관' | relative_url }}">
+        <span class="quick-icon">{% include icon.html name="book" %}</span>
+        <div><strong>학회 정관</strong><span>운영 원칙과 규정</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NEWS + EVENT ============ -->
+<section class="home-section">
+  <div class="container">
+    <div class="news-split">
+      <div class="reveal">
+        <div class="panel-head">
+          <div>
+            <span class="eyebrow">News &amp; Notice</span>
+            <h2>학회소식</h2>
+          </div>
+          <a class="more-link" href="{{ '/학회소식' | relative_url }}">전체보기 {% include icon.html name="arrow" %}</a>
+        </div>
+        <ul class="news-list">
+          {%- for n in notices limit: 5 %}
+          {%- assign cat = n.category | default: n.categories.last | default: "공지" -%}
+          {%- assign age = n.date | date: "%s" | plus: 0 | minus: now | abs -%}
+          <li>
+            <a href="{{ n.url | relative_url }}">
+              <span class="badge" data-cat="{{ cat }}">{{ cat }}</span>
+              <span class="title">{{ n.title }}{% if age < 2592000 %}<span class="is-new">NEW</span>{% endif %}</span>
+              <span class="date">{{ n.date | date: "%Y.%m.%d" }}</span>
+            </a>
+          </li>
+          {%- endfor %}
+        </ul>
+      </div>
+
+      {% if ev %}
+      <div class="reveal">
+        <div class="panel-head">
+          <div>
+            <span class="eyebrow">Upcoming Event</span>
+            <h2>행사일정</h2>
+          </div>
+          <a class="more-link" href="{{ '/행사일정' | relative_url }}">자세히 {% include icon.html name="arrow" %}</a>
+        </div>
+        <a class="event-card" href="{{ ev.notice | default: '/행사일정' | relative_url }}">
+          <div class="poster"><img src="{{ ev.thumb | default: ev.poster | relative_url }}" alt="{{ ev.title }} 포스터" loading="lazy"></div>
+          <div class="meta">
+            <span class="label">Workshop</span>
+            <h3>{{ ev.title | remove: " 개최 안내" }}</h3>
+            <dl>
+              {% if ev.when %}<dt>일시</dt><dd>{{ ev.when }}</dd>{% endif %}
+              {% if ev.where %}<dt>장소</dt><dd>{{ ev.where }}</dd>{% endif %}
+            </dl>
+          </div>
+        </a>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="home-section soft">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-visual reveal">
+        <img src="{{ '/assets/img/poster.png' | relative_url }}" alt="위성지능정보학회 소개 포스터" loading="lazy">
+      </div>
+      <div class="about-copy reveal">
+        <span class="eyebrow">About SATIIS</span>
+        <h2>위성자료와 인공지능의 융합,<br><em>위성지능정보</em>의 학문적 토대를 세웁니다</h2>
+        <p>위성지능정보학회는 위성자료와 공간정보 기반의 인공지능 융합기술을 바탕으로 한 위성지능정보(Satellite Intelligence Information)의 학문적 기반 정립과 지식공유 플랫폼 구축을 위해 2025년 7월 설립되었습니다.</p>
+        <div class="pillars">
+          <div class="pillar">
+            <span class="num">01</span>
+            <div><strong>위성지능정보의 활성화</strong><span>위성자료와 공간정보 기반의 인공지능 기술력을 통해 위성지능정보의 생산·분석·공유를 목표로 합니다.</span></div>
+          </div>
+          <div class="pillar">
+            <span class="num">02</span>
+            <div><strong>미래사회 및 기술 발전 기여</strong><span>위성지능정보와 공간 AI를 통해 지속가능한 미래사회와 기술 발전에 기여합니다.</span></div>
+          </div>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="{{ '/인사말' | relative_url }}">회장 인사말 {% include icon.html name="arrow" %}</a>
+          <a class="btn btn-outline" href="{{ '/설립목적및비전' | relative_url }}">설립 목적 및 비전</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATEMENT ============ -->
+<section class="statement">
+  <div class="container reveal">
+    <p class="small">우주에서 지구로, 데이터에서 지혜로</p>
+    <h2><em>AI</em>로 연결하는 미래, 우리가 만듭니다</h2>
+    <div class="hero-actions" style="justify-content:center">
+      <a class="btn btn-accent" href="{{ '/회원가입안내' | relative_url }}">회원가입 안내 {% include icon.html name="arrow" %}</a>
+      <a class="btn btn-ghost" href="mailto:{{ site.society.email }}">사무국 문의</a>
+    </div>
+  </div>
+</section>

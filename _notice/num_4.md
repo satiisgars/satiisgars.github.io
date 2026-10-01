@@ -1,8 +1,8 @@
 ---
-layout: default
 title: "Interferometric SAR (InSAR) Masterclass 개최 안내"
 date: 2026-06-26
-categories: [학회소식, 교육]
+category: 교육
+summary: "세계적인 InSAR 전문가 Prof. Zhong Lu 초청 집중 교육 · 2026년 7월 29일(수)–31일(금) · 서울시립대학교"
 ---
 
 <style>
@@ -110,19 +110,6 @@ categories: [학회소식, 교육]
     }
   }
 </style>
-
-<br><br>
-
-<div class="gayheader">
-  <span>Interferometric SAR (InSAR) Masterclass 개최 안내</span>
-  <div></div>
-</div>
-
-<br>
-
-<p style="text-align: right; font-size: 0.9em; color: gray; margin-bottom: 2em;">
-  게시일: 2026년 6월 26일
-</p>
 
 <p style="line-height: 1.8em; font-size: 0.95em;">
   회원 여러분, 안녕하세요:)<br>

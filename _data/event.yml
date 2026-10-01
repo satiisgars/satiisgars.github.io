@@ -1,0 +1,15 @@
+# 현재 진행 중인 대표 행사 — 홈 화면 "Upcoming Event" 카드와 [학술대회 > 행사일정] 페이지에 표시됩니다.
+title: 제3회 위성지능정보학회 워크샵 개최 안내
+poster: /assets/img/workshop_4_poster.png
+# 홈 카드용 가벼운 이미지 (없으면 poster 사용)
+thumb: /assets/img/workshop_4_poster_web.jpg
+when: 2026.10.07.(수) – 10.08.(목)
+where: 코트야드 메리어트 평택 스튜디오 룸
+theme: Overcoming the Limitations of Satellite Intelligence Using Large Language Models (LLM)
+notice: /notice/num_5
+register: https://forms.gle/2MNFSmzR6v4BySMt9
+
+# [학술대회 > 광고] 페이지
+ad:
+  title: 준비중입니다.
+  image: /assets/img/workshop_2_poster.jpg

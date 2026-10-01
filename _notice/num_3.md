@@ -1,51 +1,9 @@
 ---
-layout: default
 title: "제2회 위성지능정보학회 워크샵 개최 안내"
 date: 2026-05-08
-categories: [학회소식, 워크샵]
+category: 워크샵
+summary: "제2회 위성지능정보학회 워크샵을 다음과 같이 개최하오니 회원 여러분의 많은 관심과 참여를 부탁드립니다."
 ---
-
-<style>
-  .customTable1 tr th {
-    width: 30%;
-  }
-
-  .customTable2 tr td:nth-child(1) {
-    width: 30%
-  }
-  .customTable2 tr td:nth-child(2) {
-    width: 35%
-  }
-  .customTable2 tr td:nth-child(3) {
-    width: 35%
-  }
-
-  .button {
-    display: block;
-    background-color: white;
-    border: 1px solid;
-    border-width: 2px;
-    border-color: #eae5e5;
-    color: black;
-    text-align: center;
-    padding: 15px 20px;
-    font-family: 'Noto Sans','맑은 고딕','Malgun Gothic',Arial,Helvetica,sans-serif,Lucida,'Grande','Microsoft YaHei','Hiragino Sans GB', 'SimSun', 'Meiryo';
-    font-size: 20px;
-  }
-</style>
-
-<br><br>
-
-<div class="gayheader">
-  <span>제2회 위성지능정보학회 워크샵 개최 안내</span>
-  <div></div>
-</div>
-
-<br>
-
-<p style="text-align: right; font-size: 0.9em; color: gray; margin-bottom: 2em;">
-  게시일: 2026년 5월 8일
-</p>
 
 <p style="line-height: 1.8em; font-size: 0.95em;">
   회원 여러분, 안녕하세요:)<br>

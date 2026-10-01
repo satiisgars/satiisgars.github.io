@@ -19,12 +19,9 @@ author: 위성지능정보학회
 # --- List of links in the navigation bar --- #
 ###############################################
 
+# 메뉴 순서 = 화면 표시 순서. 각 페이지의 front matter `section` 값이 메뉴 그룹 이름과 같아야
+# 상단 메뉴 강조와 페이지 내 탭이 표시됩니다.
 navbar-links:
-  홈: "."
-  알림마당:
-    - 학회소식: "학회소식"
-  회원공간:
-    - 회원가입안내: "회원가입안내"
   학회소개:
     - 인사말: "인사말"
     - 설립 목적 및 비전: "설립목적및비전"
@@ -33,6 +30,31 @@ navbar-links:
     - 임원소개: "임원소개"
   학술대회:
     - 행사일정: "행사일정"
+    - 광고: "행사일정_광고"
+  알림마당:
+    - 학회소식: "학회소식"
+  회원공간:
+    - 회원가입안내: "회원가입안내"
+
+# 학회 기본 정보 (푸터·홈 화면에 사용)
+society:
+  name-ko: 위성지능정보학회
+  name-en: Satellite Intelligence Information Society
+  short: SATIIS
+  address: 서울특별시 강남구 테헤란로 625, 덕명빌딩 17층 RA1747호
+  tel: 02-6490-5682
+  email: satiis.society@gmail.com
+  join-form: https://forms.gle/jc4wVQFUtWmDNzxG6
+  bank: 우리은행 1005-304-831659
+  bank-holder: 위성지능정보학회
+  # 학회소식 [글쓰기] 버튼이 여는 관리자 편집기 (Pages CMS)
+  cms-new-notice: https://app.pagescms.org/satiisgars/satiisgars.github.io/main/collection/notice/new
+
+# 학회소식(공지사항) — _notice 폴더의 글이 학회소식 목록과 홈 화면에 자동으로 표시됩니다.
+collections:
+  notice:
+    output: true
+    permalink: /notice/:path
 
 ################
 # --- Logo --- #
@@ -208,7 +230,7 @@ footer-hover-col: white
 ################
 
 # Ruby Date Format to show dates of posts
-date_format: "%B %-d, %Y"
+date_format: "%Y.%m.%d"
 
 # Facebook App ID
 #fb_app_id: ""
@@ -218,7 +240,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Asia/Seoul"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
@@ -240,6 +262,13 @@ defaults:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
+  - scope:
+      path: ""
+      type: "notice"
+    values:
+      layout: "notice"
+      section: "알림마당"
+      nav-label: "학회소식"
 
 # Exclude these files from production site
 exclude:
@@ -251,6 +280,9 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  - _site/
+  - vendor/
+  - .pages.yml
 
 plugins:
   - jekyll-paginate

@@ -1,13 +1,12 @@
 ---
 layout: default
-title: 404 - Page not found
+title: 페이지를 찾을 수 없습니다
 permalink: /404.html
 ---
 
-<div class="text-center">
-  <h1>Whoops, this page doesn't exist.</h1>
-  <h1>Move along. (404 error)</h1>
-  <br/>
-
-  <img src="{{ 'assets/img/404_error.png' | relative_url }}" alt="Not found" />
+<div class="notfound">
+  <div class="code">404</div>
+  <h2>요청하신 페이지를 찾을 수 없습니다</h2>
+  <p>주소가 변경되었거나 삭제된 페이지일 수 있습니다.</p>
+  <a class="btn btn-primary" href="{{ '/' | relative_url }}">홈으로 이동</a>
 </div>

@@ -1,50 +1,9 @@
 ---
-layout: default
 title: "제1회 위성지능정보학회 워크샵 개최 안내"
 date: 2025-11-10
-categories: [학회소식, 워크샵]
+category: 워크샵
+summary: "2025년 12월 12일(금) 16:00–20:00 · 포시즌스 호텔 서울 · 차세대 AX를 위한 초소형 위성-AI 융합 기술 활용"
 ---
-
-<style>
-  .customTable1 tr th {
-    width: 30%;
-  }
-
-  .customTable2 tr td:nth-child(1) {
-    width: 30%
-  }
-  .customTable2 tr td:nth-child(2) {
-    width: 35%
-  }
-  .customTable2 tr td:nth-child(3) {
-    width: 35%
-  }
-
-  .button {
-    display: block;
-    background-color: white;
-    border: 1px solid;
-    border-width: 2px;
-    border-color: #eae5e5;
-    color: black;
-    text-align: center;
-    padding: 15px 20px;
-    font-family: 'Noto Sans','맑은 고딕','Malgun Gothic',Arial,Helvetica,sans-serif,Lucida,'Grande','Microsoft YaHei','Hiragino Sans GB', 'SimSun', 'Meiryo';
-    font-size: 20px;
-  }
-</style>
-
-<br><br>
-
-<div class="gayheader">
-  <span>제1회 위성지능정보학회 워크샵 개최 안내</span>
-  <div></div>
-</div>
-
-<br>
-<p style="text-align: right; font-size: 0.9em; color: gray; margin-bottom: 2em;">
-  게시일: 2025년 11월 10일
-</p>
 
 <p style="line-height: 1.8em; font-size: 0.95em;">
   회원 여러분, 안녕하세요:)<br>
@@ -197,13 +156,11 @@ categories: [학회소식, 워크샵]
 
 <hr>
 
-
 <h4>📩 특별세션 신청 안내</h4>
 <ul style="font-size: 0.95em; line-height: 1.8em;">
   <li><strong>신청기한:</strong> 2025년 11월 21일(금)까지</li>
   <li><strong>신청방법 및 등록비:</strong> 학회 사무국으로 별도 문의</li>
 </ul>
-
 
 <h4>📩 자세한 일정은 아래의 링크를 확인 부탁드립니다.</h4>
 <p>
