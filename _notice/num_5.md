@@ -749,32 +749,13 @@ summary: "2026.10.07.(수)–10.08.(목) · 코트야드 메리어트 평택 · 
 
     </tr>
 
-    <!-- 개회사 -->
-
-    <tr class="opening-row">
-
-      <td class="time-cell">
-        09:30–09:40
-        <span class="duration">(10’)</span>
-      </td>
-
-      <td class="content-cell">
-        <strong>개회사</strong>
-      </td>
-
-      <td class="presenter-cell">
-        위성지능정보학회장
-      </td>
-
-    </tr>
-
     <!-- Tutorial I -->
 
     <tr class="tutorial-row">
 
       <td class="time-cell">
-        09:40–11:10
-        <span class="duration">(90’)</span>
+        09:30–11:10
+        <span class="duration">(100’)</span>
       </td>
 
       <td class="content-cell">
@@ -859,8 +840,8 @@ summary: "2026.10.07.(수)–10.08.(목) · 코트야드 메리어트 평택 · 
     <tr class="break-row">
 
       <td class="time-cell">
-        14:00–14:30
-        <span class="duration">(30’)</span>
+        14:00–14:20
+        <span class="duration">(20’)</span>
       </td>
 
       <td class="content-cell">
@@ -868,6 +849,25 @@ summary: "2026.10.07.(수)–10.08.(목) · 코트야드 메리어트 평택 · 
       </td>
 
       <td class="presenter-cell"></td>
+
+    </tr>
+
+    <!-- 개회사 -->
+
+    <tr class="opening-row">
+
+      <td class="time-cell">
+        14:20–14:30
+        <span class="duration">(10’)</span>
+      </td>
+
+      <td class="content-cell">
+        <strong>개회사</strong>
+      </td>
+
+      <td class="presenter-cell">
+        위성지능정보학회장
+      </td>
 
     </tr>
 
