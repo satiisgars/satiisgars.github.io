@@ -1146,6 +1146,92 @@ summary: "2026.10.07.(수)–10.08.(목) · 코트야드 메리어트 평택 · 
 </table>
 
 <!-- ======================================
+     사전 준비물 (튜토리얼 세션)
+====================================== -->
+
+<div class="section-title">
+
+  <span class="icon">▣</span>
+
+  사전 준비물
+
+</div>
+
+<table class="info-table" style="word-break: keep-all;">
+
+  <tr>
+    <th>노트북 + 충전기</th>
+    <td>
+      Windows 10/11 또는 macOS. 사양 무관
+      (GPU 필요 없음 — 학습은 Google Colab에서 진행)
+    </td>
+  </tr>
+
+  <tr>
+    <th>Google 계정 1개</th>
+    <td>
+      본인 계정. 개인 Gmail 권장
+      (학교·회사 계정은 관리자 설정으로 Colab이 막혀 있을 수 있음)
+    </td>
+  </tr>
+
+  <tr>
+    <th>Chrome 브라우저</th>
+    <td>
+      위 Google 계정으로 로그인해 두고, 기본 브라우저로 설정
+    </td>
+  </tr>
+
+  <tr>
+    <th>인터넷</th>
+    <td>
+      강의장 Wi-Fi 사용 (연결이 불안하면 휴대폰 핫스팟 준비)
+    </td>
+  </tr>
+
+  <tr>
+    <th>Claude Code<br>API 키</th>
+    <td>
+      <strong>강의 당일 배포 예정</strong>
+    </td>
+  </tr>
+
+</table>
+
+<p style="
+  text-align:center;
+  font-size:17px;
+  color:#555;
+  line-height:1.8;
+  margin-top:24px;
+">
+
+  워크샵 전에 아래 가이드에 따라 사전 준비(설치)를 마치고,
+  실습 자료를 미리 내려받아 주시기 바랍니다.
+
+</p>
+
+<a
+  href="https://drive.google.com/file/d/1sTfL_DgnqVpc1M4PqTXhUY9h4zZlD5yr/view?usp=drive_link"
+  target="_blank"
+  rel="noopener"
+  class="button">
+
+  사전 준비(설치) 가이드 다운로드
+
+</a>
+
+<a
+  href="https://drive.google.com/file/d/1NJtBx1tjc-QowZ2devfKffNa5e3ibb_q/view?usp=drive_link"
+  target="_blank"
+  rel="noopener"
+  class="button secondary">
+
+  실습 자료 다운로드
+
+</a>
+
+<!-- ======================================
      등록비 안내
 ====================================== -->
 
